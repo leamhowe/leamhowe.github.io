@@ -16,8 +16,8 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html", title: Home Change}
-  - {file: "README.md", title: About me}
+  - {file: "home.md", title: About Me}
+  - {file: "README.md", title: PhD Project}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:leam.howe@ed.ac.uk"}
