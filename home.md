@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "About Me"
+categories: media
 ---
 
 
@@ -17,5 +18,6 @@ title: "About Me"
 
 **Website:** [Twitter](https://twitter.com/HoweLeam) | [LinkedIn](https://www.linkedin.com/in/leam-howe-618171180/)
 
+![IMG_4457](https://user-images.githubusercontent.com/48015835/211349944-d53b6d94-e3a2-4a4d-9bfc-3cf656938e6a.jpeg)
 
 PhD researcher with a particular focus on remote sensing and Earth observation from space. Keen on utilising machine learning to capitalise on these rapidly expanding datasets. Partial to mountains, snow, and all the cool stuff.
