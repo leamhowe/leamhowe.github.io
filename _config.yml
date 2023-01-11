@@ -16,7 +16,7 @@ minimal: true             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "home.md", title: About Me}
+  - {file: "about_me.md", title: About Me}
   - {file: "phd_project.md", title: PhD Project}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
@@ -29,4 +29,4 @@ comments:
 #  isso_domain: ""         # see https://posativ.org/isso/
 
 plugins:
- - jekyll-feed
+#  - jekyll-feed
