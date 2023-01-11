@@ -6,11 +6,11 @@ categories: media
 
 <div align="center">
 Thesis title: 
-# “MACHINE LEARNING FOR REMOTE SENSING AND MODELLING OF MOUNTAIN SNOW PATCHES”
+# “MACHINE LEARNING FOR REMOTE SENSING AND MODELLING OF MOUNTAIN SNOW PATCHES”</div>
+
 
 ![IMG_3850](https://user-images.githubusercontent.com/48015835/211348290-decc3434-a230-493c-9f77-85d0d1653257.jpeg)
 
-</div>
 
 ## Scientific background and motivation
 
