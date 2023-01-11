@@ -6,6 +6,8 @@ categories: media
 
 
 <p style="text-align: center;">
+**Name:** Leam Howe  
+  
 **Position:** PhD Researcher, University of Edinburgh 
 
 **Thesis title:** Machine learning for remote sensing and modelling of mountain snow patches
