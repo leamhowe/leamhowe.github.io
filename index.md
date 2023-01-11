@@ -6,7 +6,8 @@ categories: media
 
 
 
-<div align="center">**Name:** Leam Howe
+<div align="center">
+**Name:** Leam Howe
 
 **Position:** PhD Researcher, University of Edinburgh 
 
