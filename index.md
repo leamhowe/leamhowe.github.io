@@ -6,7 +6,6 @@ categories: media
 
 
 
-<div align="center">
 **Name:** Leam Howe
 
 **Position:** PhD Researcher, University of Edinburgh 
@@ -17,7 +16,7 @@ categories: media
 
 **Location:** Benbecula Suite, School of Geosciences, Drummond Street, Edinburgh EH8 9XP
 
-**Website:** [Twitter](https://twitter.com/HoweLeam) / [LinkedIn](https://www.linkedin.com/in/leam-howe-618171180/)</div>
+**Website:** [Twitter](https://twitter.com/HoweLeam) / [LinkedIn](https://www.linkedin.com/in/leam-howe-618171180/)
 
 ![IMG_4457](https://user-images.githubusercontent.com/48015835/211349944-d53b6d94-e3a2-4a4d-9bfc-3cf656938e6a.jpeg)
 
