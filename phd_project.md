@@ -4,10 +4,9 @@ title: PhD Project
 categories: media
 ---
 
-<div align="center">
-Thesis title: </div>
+Thesis title:
 
-# “MACHINE LEARNING FOR REMOTE SENSING AND MODELLING OF MOUNTAIN SNOW PATCHES”
+<h1 style="text-align: center;">“MACHINE LEARNING FOR REMOTE SENSING AND MODELLING OF MOUNTAIN SNOW PATCHES”</h1>
 
 
 ![IMG_3850](https://user-images.githubusercontent.com/48015835/211348290-decc3434-a230-493c-9f77-85d0d1653257.jpeg)
