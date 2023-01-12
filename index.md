@@ -4,20 +4,20 @@ title: "About Me"
 categories: media
 ---
 
-<!-- <p align="center"> -->
-  **Name:** Leam Howe 
+    <!-- <p align="center"> -->
+      **Name:** Leam Howe 
 
-  **Position:** PhD Researcher, University of Edinburgh 
+      **Position:** PhD Researcher, University of Edinburgh 
 
-  **Thesis title:** Machine learning for remote sensing and modelling of mountain snow patches
+      **Thesis title:** Machine learning for remote sensing and modelling of mountain snow patches
 
-  **Email:** leam.howe@ed.ac.uk
+      **Email:** leam.howe@ed.ac.uk
 
-  **Location:** Benbecula Suite, School of Geosciences, Drummond Street, Edinburgh EH8 9XP
+      **Location:** Benbecula Suite, School of Geosciences, Drummond Street, Edinburgh EH8 9XP
     
 <!-- **Website:** [Twitter](https://twitter.com/HoweLeam) / [LinkedIn](https://www.linkedin.com/in/leam-howe-618171180/) -->
 
-  **Website:** <a href="https://twitter.com/HoweLeam" style="color: : red; text-decoration: underline;text-decoration-style: dotted;">Twitter</a> / <a href="https://www.linkedin.com/in/leam-howe-618171180/" style="color: : red; text-decoration: underline;text-decoration-style: dotted;">LinkedIn</a>
+  **Website:** <a href="https://twitter.com/HoweLeam" style="color: : green; text-decoration: underline;text-decoration-style: dotted;">Twitter</a> / <a href="https://www.linkedin.com/in/leam-howe-618171180/" style="color: : green; text-decoration: underline;text-decoration-style: dotted;">LinkedIn</a>
     <!-- </p> -->
 
 ![IMG_4457](https://user-images.githubusercontent.com/48015835/211349944-d53b6d94-e3a2-4a4d-9bfc-3cf656938e6a.jpeg)
