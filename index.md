@@ -15,20 +15,21 @@ div {text-align: center;}
 
 <!-- <p align="center"> -->
   <p>
-**Name:** Leam Howe  
-  
-**Position:** PhD Researcher, University of Edinburgh 
+          **Name:** Leam Howe  
 
-**Thesis title:** Machine learning for remote sensing and modelling of mountain snow patches
+          **Position:** PhD Researcher, University of Edinburgh 
 
-**Email:** leam.howe@ed.ac.uk
+          **Thesis title:** Machine learning for remote sensing and modelling of mountain snow patches
 
-**Location:** Benbecula Suite, School of Geosciences, Drummond Street, Edinburgh EH8 9XP
-  </p>
+          **Email:** leam.howe@ed.ac.uk
+
+          **Location:** Benbecula Suite, School of Geosciences, Drummond Street, Edinburgh EH8 9XP
+    
 <!-- **Website:** [Twitter](https://twitter.com/HoweLeam) / [LinkedIn](https://www.linkedin.com/in/leam-howe-618171180/) -->
 
 **Website:** <a href="https://twitter.com/HoweLeam" style="color: : LightCoral; text-decoration: underline;text-decoration-style: dotted;">Twitter</a> / <a href="https://www.linkedin.com/in/leam-howe-618171180/" style="color: : LightCoral; text-decoration: underline;text-decoration-style: dotted;">LinkedIn</a>
-<!-- </p> -->
+    </p>
+    <!-- </p> -->
 
 ![IMG_4457](https://user-images.githubusercontent.com/48015835/211349944-d53b6d94-e3a2-4a4d-9bfc-3cf656938e6a.jpeg)
 
