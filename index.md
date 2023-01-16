@@ -5,15 +5,15 @@ categories: media
 ---
 
     <!-- <p align="center"> -->
-      **Name:** Leam Howe 
+  **Name:** Leam Howe 
 
-      **Position:** PhD Researcher, University of Edinburgh 
+  **Position:** PhD Researcher, University of Edinburgh 
 
-      **Thesis title:** Machine learning for remote sensing and modelling of mountain snow patches
+  **Thesis title:** Machine learning for remote sensing and modelling of mountain snow patches
 
-      **Email:** leam.howe@ed.ac.uk
+  **Email:** leam.howe@ed.ac.uk
 
-      **Location:** Benbecula Suite, School of Geosciences, Drummond Street, Edinburgh EH8 9XP
+  **Location:** Benbecula Suite, School of Geosciences, Drummond Street, Edinburgh EH8 9XP
     
 <!-- **Website:** [Twitter](https://twitter.com/HoweLeam) / [LinkedIn](https://www.linkedin.com/in/leam-howe-618171180/) -->
 
