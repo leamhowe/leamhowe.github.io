@@ -4,7 +4,7 @@ title: "About Me"
 categories: media
 ---
 
-    <!-- <p align="center"> -->
+<!-- <p align="center"> -->
   **Name:** Leam Howe 
 
   **Position:** PhD Researcher, University of Edinburgh 
