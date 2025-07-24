@@ -1,0 +1,91 @@
+---
+title: ""
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: false
+    page-layout: full
+    title-block: false
+    title-block-banner: false
+---
+
+<div class="banner-image">
+  <img src="images/braeriach.jpeg" alt="Banner Image">
+</div>
+<!-- 
+## Thesis Title: "MACHINE LEARNING FOR REMOTE SENSING AND MODELLING OF MOUNTAIN SNOW PATCHES" -->
+
+
+<div class="content-wrapper">
+<div style="text-align: center;">
+  <strong>"MACHINE LEARNING FOR REMOTE SENSING AND MODELLING OF MOUNTAIN SNOW PATCHES"</strong>
+</div>
+
+---
+
+### Scientific Background and Motivation
+
+<!-- ![](images/braeriach.jpeg)
+*Snowy slopes on the west side of Ben Macdui, Cairngorms, Feb 2022.* -->
+
+Anthropogenic climate change is causing the mountain cryosphere (snow, ice, and permafrost) to deteriorate rapidly — a trend expected to *accelerate* over coming decades. The impacts will extend far beyond the mountains to affect physical, biological, and human systems in surrounding lowlands and oceans.
+
+Mountain snow provides many services as a water store, habitat, and playground, but also poses risks (floods, avalanches) due to its high climate sensitivity.
+
+The **high spatial variability** of snow in mountains makes it difficult to monitor and forecast using coarse-resolution satellite sensors and models — even though these environments need such forecasts most.
+
+Even in Scotland's maritime climate, snow can persist all summer in sheltered mountain spots. Some corries hosted perennial snow patches for decades until recently. Predicting the fate of these patches is a good test for physically-based snow models used in climate studies.
+
+This project leverages new high-resolution remote sensing and meteorological modelling to better understand the **climate sensitivity** of mountain snow.
+
+:::{.text-center}
+![False-colour image over the cairngorms from Sentinel-2](images/230420_Cairngorms_false_colour.png){width=80%}
+:::
+
+---
+
+### Aims and Objectives
+
+**Artificial Neural Networks (ANNs)** will be applied to three main challenges:
+
+1. Remote sensing of mountain snow cover in Scotland  
+2. Downscaling meteorological variables over mountain topography  
+3. Constraining physical snow models using remote sensing and meteorological data  
+
+---
+
+### Methodology
+
+**Step 1 – Remote Sensing of Snow Cover**  
+Traditional methods use reflectance differences (visible vs. near-infrared) to distinguish snow from cloud, then thresholding for snow classification. But multispectral sensors and snow reflectance models hold much more information — about grain size, contaminants, etc.
+
+Machine learning (ANNs) will be trained to classify snow using:
+- MODIS
+- Sentinel-2
+- Potentially SAR (Synthetic Aperture Radar)
+
+Training data will be tailored for conditions specific to the Cairngorms.
+
+**Step 2 – Downscaling Meteorology**  
+Weather stations are sparse and hard to maintain in the mountains (see example below):
+
+:::{.text-center}
+![Cairngorm summit weather station frozen solid and recording little data.](images/cairngorm-weather-station.jpeg){width=80%}
+:::
+
+Modern high-resolution meteorological models (e.g., NWP, CFD) can help but are limited in coverage. Machine learning will be used to downscale meteorological inputs like wind and precipitation, which do not follow simple elevation-based rules.
+
+**Step 3 – Physically-Based Snow Modelling**  
+A high-resolution snow model will be:
+- Driven by downscaled meteorological inputs
+- Evaluated using remote sensing snow products
+
+The model will account for:
+- Well-understood processes (e.g. shading)
+- Poorly understood processes (e.g. wind erosion, turbulent transport)  
+Machine learning will help integrate these processes under physical constraints like mass and energy conservation.
+
+**Fieldwork** will focus on the Cairngorms and surrounding catchments (Feshie, Coire Cas), allowing quick response to weather and reducing carbon footprint.
+
+</div>

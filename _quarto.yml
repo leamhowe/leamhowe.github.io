@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Leam Howe"
+  favicon: images/ML4GEO_logo.png
+  navbar:
+    left:
+      - href: index.qmd
+        # html: "<img src='images/ML4GEO_logo.png' alt='ML4GEO Logo' style='height: 40px;'>"
+        text: Home
+      - href: phd-project.qmd
+        text: PhD Project
+      # - about.qmd
+      # - href: events.qmd
+      # - href: committee.qmd
+      # - href: members.qmd
+      # - href: resources.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      # - [cosmo, styles.css]
+      - brand
+    css: 
+      - /styles.css
+      - /styles.css
+    # background-color: #EBDFCC 
+    toc: true
+
+# resources:
+#   - _site/styles.css
+resources:
+  - /styles.css
+
+

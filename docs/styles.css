@@ -1,0 +1,128 @@
+/* css styles */
+
+/* Set the whole page background */
+body {
+  background-color: #F79B72;
+  font-family: "Georgia", "Times New Roman", Times, serif;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #2A4759;
+  padding: 2rem;
+  margin: 0; /* Remove auto-centering here */
+}
+
+.content-wrapper {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+
+/* Optional: Adjust navbar/footer to match */
+.navbar {
+  background-color: #F79B72 !important;
+  border-bottom: 1px solid #F79B72;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #2A4759 !important; /* or #EEDBDB to match your body text */
+}
+/* Center the navbar title
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold; /* optional */
+/* } */ */
+/* Match navbar title alignment to page content
+.navbar .container-fluid {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-brand {
+  position: static;
+  transform: none;
+} */
+
+
+/* Ensure navbar is relative so the title can be positioned within */
+.navbar {
+  position: relative;
+}
+
+
+/* Headings: match body text color for consistency */
+h1, h2, h3 {
+  font-weight: 600;
+  color: #2A4759;
+}
+
+/* Link styling */
+a {
+  color: #2A4759; /* Warmer contrast on red background */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Horizontal rule styling */
+hr {
+  border: none;
+  border-top: 1px solid #EEDBDB;
+  margin: 2rem 0;
+  
+}
+
+.banner-image {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  overflow: hidden;
+  object-position: center bottom;
+
+}
+
+.banner-image img {
+  width: 100vw;
+  height: 300px; /* adjust as needed */
+  object-fit: cover;
+  display: block;
+}
+
+/* .full-width-banner {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  overflow: hidden;
+} */
+/* 
+.full-width-banner img {
+  width: 100vw;
+  height: 300px; 
+  object-fit: cover;
+  display: block;
+} */
+
+
+/* .full-width-image {
+  width: 50vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  overflow: hidden;
+}
+
+.full-width-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+} */
