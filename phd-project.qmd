@@ -47,7 +47,7 @@ This project leverages new high-resolution remote sensing and meteorological mod
 
 ### Aims and Objectives
 
-**Artificial Neural Networks (ANNs)** will be applied to three main challenges:
+Machine learning will be applied to three main challenges:
 
 1. Remote sensing of mountain snow cover in Scotland  
 2. Downscaling meteorological variables over mountain topography  
@@ -57,35 +57,16 @@ This project leverages new high-resolution remote sensing and meteorological mod
 
 ### Methodology
 
-**Step 1 – Remote Sensing of Snow Cover**  
-Traditional methods use reflectance differences (visible vs. near-infrared) to distinguish snow from cloud, then thresholding for snow classification. But multispectral sensors and snow reflectance models hold much more information — about grain size, contaminants, etc.
-
-Machine learning (ANNs) will be trained to classify snow using:
-- MODIS
-- Sentinel-2
-- Potentially SAR (Synthetic Aperture Radar)
-
-Training data will be tailored for conditions specific to the Cairngorms.
-
-**Step 2 – Downscaling Meteorology**  
-Weather stations are sparse and hard to maintain in the mountains (see example below):
+**Step 1.** Remote sensing of snow cover is most often achieved using differences between visible and near-infrared channels to distinguish snow from cloud, normalized to compensate for variations in illumination and viewing conditions, and thresholded to distinguish snow from snow-free ground. However, multispectral imagers and snow reflectance models actually provide much more information on snow structure and contaminants that can be exploited with machine learning. Training sets will be developed and used to train ANNs to discriminate snow specifically for snow conditions occurring in the Cairngorms. Initially, I am focusing on using optical imagery from starting from ESA's Sentinel-2 satellite.
 
 :::{.text-center}
 ![Cairngorm summit weather station frozen solid and recording little data.](images/cairngorm-weather-station.jpeg){width=80%}
 :::
 
-Modern high-resolution meteorological models (e.g., NWP, CFD) can help but are limited in coverage. Machine learning will be used to downscale meteorological inputs like wind and precipitation, which do not follow simple elevation-based rules.
+**Step 2.** Weather stations that could provide inputs for snow models are sparse and difficult to maintain in the mountains (epitomized in the above image). Numerical Weather Prediction (NWP) at 1 km resolution and Computational Fluid Dynamics (CFD) models at higher resolutions are now available but limited in spatial and temporal coverage. Hydrological forecasting and impacts models generally use simple elevation lapse rates to downscale meteorological variables, but some variables – precipitation and wind, in particular – clearly do not behave in such simple ways. Machine learning will be used to identify patterns in NWP and CFD model outputs that can be used for downscaling.
 
-**Step 3 – Physically-Based Snow Modelling**  
-A high-resolution snow model will be:
-- Driven by downscaled meteorological inputs
-- Evaluated using remote sensing snow products
+**Step 3.** A high-resolution, physically-based snow model will be driven with downscaled meteorology and evaluated with remote sensing products developed in this project. Some of the processes required in models of this type, such as shading of snow on slopes, are well understood but require expensive simulations at high resolutions. Other processes, such as wind erosion, turbulent transport and re-deposition of snow, are poorly understood and heavily parametrized. Physical constraints of mass and energy conservation will be incorporated into machine learning of snow patterns, using meteorological variables and topographic metrics as inputs to gain insight into the relative importance of factors contributing to the preservation of late-lying snow patches.
 
-The model will account for:
-- Well-understood processes (e.g. shading)
-- Poorly understood processes (e.g. wind erosion, turbulent transport)  
-Machine learning will help integrate these processes under physical constraints like mass and energy conservation.
-
-**Fieldwork** will focus on the Cairngorms and surrounding catchments (Feshie, Coire Cas), allowing quick response to weather and reducing carbon footprint.
+Fieldwork for this project will be focused close to home enabling a fast response to favourable weather conditions and limiting our carbon footprint. There will be a heavy focus on the Cairngorms, take advantage of connections with existing hydrometeorological measurements in the Feshie and Coire Cas catchments of the Cairngorms.
 
 </div>
