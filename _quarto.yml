@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Leam Howe"
-  favicon: images/ML4GEO_logo.png
+  favicon: images/mountain_sketch_icon.png
   navbar:
     left:
       - href: index.qmd

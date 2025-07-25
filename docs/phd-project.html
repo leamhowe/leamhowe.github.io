@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./images/ML4GEO_logo.png" rel="icon" type="image/png">
+<link href="./images/mountain_sketch_icon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -148,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="aims-and-objectives" class="level3">
 <h3 class="anchored" data-anchor-id="aims-and-objectives">Aims and Objectives</h3>
-<p><strong>Artificial Neural Networks (ANNs)</strong> will be applied to three main challenges:</p>
+<p>Machine learning will be applied to three main challenges:</p>
 <ol type="1">
 <li>Remote sensing of mountain snow cover in Scotland<br>
 </li>
@@ -160,12 +160,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="methodology" class="level3">
 <h3 class="anchored" data-anchor-id="methodology">Methodology</h3>
-<p><strong>Step 1 – Remote Sensing of Snow Cover</strong><br>
-Traditional methods use reflectance differences (visible vs.&nbsp;near-infrared) to distinguish snow from cloud, then thresholding for snow classification. But multispectral sensors and snow reflectance models hold much more information — about grain size, contaminants, etc.</p>
-<p>Machine learning (ANNs) will be trained to classify snow using: - MODIS - Sentinel-2 - Potentially SAR (Synthetic Aperture Radar)</p>
-<p>Training data will be tailored for conditions specific to the Cairngorms.</p>
-<p><strong>Step 2 – Downscaling Meteorology</strong><br>
-Weather stations are sparse and hard to maintain in the mountains (see example below):</p>
+<p><strong>Step 1.</strong> Remote sensing of snow cover is most often achieved using differences between visible and near-infrared channels to distinguish snow from cloud, normalized to compensate for variations in illumination and viewing conditions, and thresholded to distinguish snow from snow-free ground. However, multispectral imagers and snow reflectance models actually provide much more information on snow structure and contaminants that can be exploited with machine learning. Training sets will be developed and used to train ANNs to discriminate snow specifically for snow conditions occurring in the Cairngorms. Initially, I am focusing on using optical imagery from starting from ESA’s Sentinel-2 satellite.</p>
 <div class="text-center">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -174,12 +169,9 @@ Weather stations are sparse and hard to maintain in the mountains (see example b
 </figure>
 </div>
 </div>
-<p>Modern high-resolution meteorological models (e.g., NWP, CFD) can help but are limited in coverage. Machine learning will be used to downscale meteorological inputs like wind and precipitation, which do not follow simple elevation-based rules.</p>
-<p><strong>Step 3 – Physically-Based Snow Modelling</strong><br>
-A high-resolution snow model will be: - Driven by downscaled meteorological inputs - Evaluated using remote sensing snow products</p>
-<p>The model will account for: - Well-understood processes (e.g.&nbsp;shading) - Poorly understood processes (e.g.&nbsp;wind erosion, turbulent transport)<br>
-Machine learning will help integrate these processes under physical constraints like mass and energy conservation.</p>
-<p><strong>Fieldwork</strong> will focus on the Cairngorms and surrounding catchments (Feshie, Coire Cas), allowing quick response to weather and reducing carbon footprint.</p>
+<p><strong>Step 2.</strong> Weather stations that could provide inputs for snow models are sparse and difficult to maintain in the mountains (epitomized in the above image). Numerical Weather Prediction (NWP) at 1 km resolution and Computational Fluid Dynamics (CFD) models at higher resolutions are now available but limited in spatial and temporal coverage. Hydrological forecasting and impacts models generally use simple elevation lapse rates to downscale meteorological variables, but some variables – precipitation and wind, in particular – clearly do not behave in such simple ways. Machine learning will be used to identify patterns in NWP and CFD model outputs that can be used for downscaling.</p>
+<p><strong>Step 3.</strong> A high-resolution, physically-based snow model will be driven with downscaled meteorology and evaluated with remote sensing products developed in this project. Some of the processes required in models of this type, such as shading of snow on slopes, are well understood but require expensive simulations at high resolutions. Other processes, such as wind erosion, turbulent transport and re-deposition of snow, are poorly understood and heavily parametrized. Physical constraints of mass and energy conservation will be incorporated into machine learning of snow patterns, using meteorological variables and topographic metrics as inputs to gain insight into the relative importance of factors contributing to the preservation of late-lying snow patches.</p>
+<p>Fieldwork for this project will be focused close to home enabling a fast response to favourable weather conditions and limiting our carbon footprint. There will be a heavy focus on the Cairngorms, take advantage of connections with existing hydrometeorological measurements in the Feshie and Coire Cas catchments of the Cairngorms.</p>
 </section>
 </div>
 
