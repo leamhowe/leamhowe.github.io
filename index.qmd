@@ -8,25 +8,22 @@ format:
     page-layout: full
     title-block: false
     title-block-banner: false
+resources: 
+  - pong_game/
 ---
 
-<!-- ✅ BANNER IMAGE FIRST -->
 <div class="banner-image">
   <img src="images/an_teallach_dusk.jpg" alt="Banner Image">
+  <!-- <img src="images/glencoe_pano.jpg" alt="Banner Image"> -->
 </div>
 
-<!-- ✅ PROFILE TEXT + HEADSHOT -->
 <div class="content-wrapper">
-
-<!-- <h1 style="text-align: center;">Leam Howe</h1> -->
 
 <div style="text-align: center;">
   <strong style="font-size: 2rem;">Leam Howe</strong>
 </div>
 
 <div style="text-align: center; margin-bottom: 2rem;">
-  <!-- <img src="images/leam-howe.png" alt="Leam Howe" style="max-width: 800px; height: auto; display: block; margin: 1rem auto 0 auto;"> -->
-  <!-- <h1 style="margin-bottom: 0;">Leam Howe</h1>  -->
   <p style="margin: 0;">PhD Student, SENSE CDT<br>School of GeoSciences, University of Edinburgh</p>
   <p><a href="mailto:leam.howe@ed.ac.uk">leam.howe@ed.ac.uk</a></p>
 </div>
@@ -39,20 +36,21 @@ format:
 
 ### About
 
-PhD researcher with a particular focus on remote sensing and Earth observation from space. Keen on utilising machine learning to capitalise on these rapidly expanding datasets. Partial to mountains, snow, and coffee.
+PhD researcher in environmental data science specialising in remote sensing and modelling of mountain snow. I develop machine‑learning and physics‑based models to turn large Earth Observation (EO) datasets into robust insights, integrating satellite, aerial, UAV and meteorological data. A qualified Mountain Leader and active science communicator (Chair 2024-25, [SatSchool Outreach](tschool-outreach.github.io/)). Partial to mountains, snow, and coffee. 🏔️❄️☕
 
 ---
 
 ### Research Interests
 
-- Earth Observation  
-- Remote Sensing  
-- AI & Machine Learning  
-- Climate Change  
 - The Cryosphere  
 - Snow  
 - Orographic Processes  
 - Mountain Meteorology
+- Climate Change  
+- Earth Observation  
+- Remote Sensing  
+- AI & Machine Learning  
+- Modelling
 
 ---
 
@@ -65,7 +63,15 @@ PhD researcher with a particular focus on remote sensing and Earth observation f
 
 ### Affiliations
 
-- [SENSE Earth Observation CDT](https://eo-cdt.org)  
-- [ENVEO IT GmbH](https://www.enveo.at)
+- PhD funded through the [SENSE Earth Observation CDT](https://eo-cdt.org)  
+- CASE partner: [ENVEO IT GmbH](https://www.enveo.at)
+
+---
+
+
+<div style="text-align: center; margin-top: 20px;">
+  <iframe src="pong_game/index.html" width="820" height="520" style="border:none; overflow:hidden;"></iframe>
+  <p style="font-size: 0.8rem; color: #666;"></p>
+</div>
 
 </div>

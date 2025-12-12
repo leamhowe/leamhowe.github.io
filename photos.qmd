@@ -1,0 +1,113 @@
+---
+title: ""
+lightbox: true
+aliases: 
+  - /docs/prerelease/1.4/lightbox.html
+---
+
+<!-- ✅ BANNER IMAGE FIRST
+<div class="banner-image">
+  <img src="images/cairngorm-plateau-winter.jpeg" alt="Banner Image">
+</div>
+ -->
+
+## Lightbox gallery 
+
+::: {layout-ncol=1}
+
+![](images/cairngorm-plateau-winter.jpeg){group="lightbulbs" fig-alt="A photo of a lightbulb with a glowing filament against a black background."}
+
+:::
+
+::: {layout-ncol=2}
+
+![](images/IMG_6206.jpg){group="lightbulbs" fig-alt="A photo of a lightbulb with a glowing filament against a black background."}
+
+![](images/IMG_6169.jpg){group="lightbulbs" fig-alt="A photo of a lightbulb with a glowing filament against a black background."}
+
+:::
+
+::: {layout-ncol=1}
+
+![](images/an_teallach_sunset.jpg){group="lightbulbs" fig-alt="A photo of a lightbulb with a glowing filament against a black background."}
+
+:::
+
+
+## Photo Gallery
+
+::: {#masonry-grid}
+![](images/cairngorm-plateau-winter.jpeg){.masonry-item}
+
+![](images/braeriach.jpeg){.masonry-item}
+
+![](images/IMG_6147.jpg){.masonry-item}
+
+![](images/dusk_loch_coire_an_lochan.jpg){.masonry-item}
+
+![](images/an_teallach_sunset.jpg){.masonry-item}
+
+![](images/IMG_6162-2.jpg){.masonry-item}
+:::
+
+<style>
+/* Masonry grid with 3 columns */
+#masonry-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  grid-auto-rows: 1px; /* Changed to 1px for finer control */
+}
+
+.masonry-item {
+  width: 100%;
+  border-radius: 0;
+  transition: transform 0.2s;
+}
+
+/* Optional hover effect */
+.masonry-item:hover {
+  transform: scale(1.02);
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const grid = document.getElementById('masonry-grid');
+  if (!grid) return;
+
+  // Function to calculate and set row spans
+  function layoutMasonry() {
+    const items = grid.querySelectorAll('.masonry-item');
+    const rowHeight = 1; // Must match grid-auto-rows in CSS
+    
+    items.forEach(item => {
+      // Reset height to get accurate measurement
+      item.style.height = 'auto';
+      
+      // Calculate row span
+      const itemHeight = item.getBoundingClientRect().height;
+      const rowSpan = Math.ceil(itemHeight / rowHeight) + 1; // Added buffer
+      
+      // Apply row span
+      item.style.gridRowEnd = `span ${rowSpan}`;
+    });
+  }
+
+  // Initial layout
+  layoutMasonry();
+
+  // Relayout when images load
+  const images = grid.querySelectorAll('img');
+  images.forEach(img => {
+    if (img.complete) {
+      layoutMasonry();
+    } else {
+      img.addEventListener('load', layoutMasonry);
+    }
+  });
+
+  // Optional: Handle window resize
+  window.addEventListener('resize', layoutMasonry);
+});
+</script>

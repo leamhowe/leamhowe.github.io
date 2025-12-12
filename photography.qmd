@@ -1,0 +1,92 @@
+---
+title: "Photo Gallery"
+format: html
+---
+
+## Photo Gallery
+
+<!-- ::: {.mixed-gallery}
+![](images/cairngorm-plateau-winter.jpeg){.landscape}
+
+![](images/IMG_6206.jpg){.portrait}
+
+![](images/IMG_6169.jpg){.portrait}
+
+![](images/IMG_6112.jpg){.landscape}
+
+![](images/IMG_2246.jpeg){.portrait}
+
+![](images/snow_patch.jpg){.portrait}
+::: -->
+
+::: {.gallery}
+![](images/cairngorm-plateau-winter.jpeg){.gallery-item.landscape}
+
+![](images/IMG_6206.jpg){.gallery-item}
+
+![](images/IMG_6169.jpg){.gallery-item}
+
+![](images/IMG_6112.jpg){.gallery-item}
+
+![](images/IMG_2246.jpeg){.gallery-item}
+
+![](images/snow_patch.jpg){.gallery-item}
+:::
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const images = document.querySelectorAll('.gallery-item');
+  images.forEach(img => {
+    // Wait for each image to load
+    if (img.complete) {
+      markOrientation(img);
+    } else {
+      img.addEventListener('load', () => markOrientation(img));
+    }
+  });
+
+  function markOrientation(img) {
+    if (img.naturalWidth > img.naturalHeight) {
+      img.classList.add('landscape');
+    }
+  }
+});
+</script>
+
+
+## Light gallery
+
+<div id="lightgallery">
+  <a href="images/cairngorm-plateau-winter.jpeg">
+    <img src="images/cairngorm-plateau-winter.jpeg" alt="Cairngorm Plateau Winter" style="width:150px"/>
+  </a>
+  <a href="images/IMG_6206.jpg">
+    <img src="images/IMG_6206.jpg" alt="IMG_6206" style="width:150px"/>
+  </a>
+  <a href="images/IMG_6169.jpg">
+    <img src="images/IMG_6169.jpg" alt="IMG_6169" style="width:150px"/>
+  </a>
+  <a href="images/IMG_6112.jpg">
+    <img src="images/IMG_6112.jpg" alt="IMG_6112" style="width:150px"/>
+  </a>
+  <a href="images/IMG_2246.jpeg">
+    <img src="images/IMG_2246.jpeg" alt="IMG_2246" style="width:150px"/>
+  </a>
+  <a href="images/snow_patch.jpg">
+    <img src="images/snow_patch.jpg" alt="Snow Patch" style="width:150px"/>
+  </a>
+</div>
+
+<link href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery-bundle.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/zoom/lg-zoom.umd.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  lightGallery(document.getElementById('lightgallery'), {
+    plugins: [lgZoom],
+    speed: 500,
+  });
+});
+</script>
