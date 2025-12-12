@@ -10,6 +10,8 @@ format:
     title-block-banner: false
 resources: 
   - pong_game/
+  - dino_game/
+  - sat_game/
 ---
 
 <div class="banner-image">
@@ -70,7 +72,9 @@ PhD researcher in environmental data science specialising in remote sensing and 
 
 
 <div style="text-align: center; margin-top: 20px;">
-  <iframe src="pong_game/index.html" width="820" height="520" style="border:none; overflow:hidden;"></iframe>
+  <!-- <iframe src="pong_game/index.html" width="820" height="520" style="border:none; overflow:hidden;"></iframe> -->
+  <!-- <iframe src="dino_game/index.html" width="820" height="520" style="border:none; overflow:hidden;"></iframe> -->
+  <iframe src="sat_game/index.html" width="820" height="520" style="border:none; overflow:hidden;"></iframe>
   <p style="font-size: 0.8rem; color: #666;"></p>
 </div>
 

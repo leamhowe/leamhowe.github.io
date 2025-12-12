@@ -1,0 +1,25 @@
+body {
+    background: #2A4759;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+canvas#pong {
+    background: #2A4759; /* Changed to Dark Teal */
+    /* box-shadow: 0 0 20px rgba(0,0,0,0.5); */
+    box-shadow: 0 0 20px #2A4759;
+    border: 2px solid #2A4759; /* Changed to Light Pink */
+    cursor: pointer;
+}
