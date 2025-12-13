@@ -38,7 +38,11 @@ resources:
 
 ### About
 
-PhD researcher in environmental data science specialising in remote sensing and modelling of mountain snow. I develop machine‑learning and physics‑based models to turn large Earth Observation (EO) datasets into robust insights, integrating satellite, aerial, UAV and meteorological data. A qualified Mountain Leader and active science communicator (Chair 2024-25, [SatSchool Outreach](tschool-outreach.github.io/)). Partial to mountains, snow, and coffee. 🏔️❄️☕
+Partial to mountains, snow, and coffee. 🏔️❄️☕
+
+PhD researcher in environmental data science, specializing in the remote sensing and modelling of mountain snow. My work spans the full observational scale: from in-situ fieldwork and UAV surveys to aerial and satellite Earth Observation.
+
+Keen on encouraging more interdiciplinary collaborations founding the [Machine Learning for Geoscience and Earth Observation (Ml4GEO)](https://ml4geo-ed.github.io/) group. I'm also passionate about outreach and effective communication of science, in recent years I've spent a lot of time working on and chairing the [SatSchool Outreach](satschool-outreach.github.io/) project.
 
 ---
 
