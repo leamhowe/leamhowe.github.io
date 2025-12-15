@@ -17,13 +17,13 @@ This summer, my fieldwork took me to Coire Cas on Cairngorm Mountain, where I ai
 
 Conducting multispectral drone surveys requires two things notoriously scarce in the Scottish Highlands: low winds and clear skies. Moreover, this summer was dubbed [‘Scotland’s worst since 2015’](https://www.heraldscotland.com/news/24558427.scotlands-weather-worst-summer-since-2015--says-met-office/), limiting us to a single day of drone surveys. The scarcity of cloud-free days this season is visualised in Figure 1 below.
 
-::: {.column-screen-inset .text-center}
+::: {.text-center}
 ![**Figure 1.** Visualisation of all the Sentinel-2 satellite images captured over Cairngorm Mountain in the summer of 2024.](images/S2_cairngorm_summer_2024.png)
 :::
 
 Despite the inclement weather, we did manage to retrieve some spectral measurements of the late-lying snow on the 24th June (Figure 2 shows one of the short-lived sunny intervals on the day). These data will help improve the snow mapping algorithms which, in turn, feed into research and contribute to discussions concerning biodiversity, water resources, and risk management in cold and mountainous regions.
 
-::: {.column-screen-inset .text-center}
+::: {.text-center}
 ![**Figure 2.** The snow patches surveyed in Corrie Cas on 24/06/2024.](images/PXL_20240624_143453284.jpg)
 :::
 
@@ -33,7 +33,7 @@ The Sphinx has made it to popular news platforms numerous times over the past fe
 
 Current projections suggest a stark future with [‘little to no snow by the 2080s’](https://www.climatexchange.org.uk/wp-content/uploads/2023/09/cxc-snow-cover-and-climate-change-in-the-cairngorms-national-park_1.pdf) — a disheartening forecast for chionophiles like myself.
 
-::: {.column-screen-inset .text-center}
+::: {.text-center}
 ![**Figure 3.** Me with the famous Sphinx snow patch on 22/09/2024. This corrie is considered the snowiest place in the UK.](images/PXL_20240922_092207014.jpg)
 :::
 
