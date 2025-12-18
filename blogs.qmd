@@ -1,4 +1,6 @@
-# Blogs
+<div style="text-align: center;">
+  <strong style="font-size: 2rem;">Blogs</strong>
+</div>
 
 ::: {.text-center}
 This page is a repository for my blog posts.  
@@ -9,7 +11,8 @@ Expect mountains, snow, satellites, and maybe a few personal opinions on academi
 
 ---
 
-## **Blog #1 (September 2024): Chasing snow patches in the Cairngorms**
+## **1 - Chasing snow patches in the Cairngorms**
+**September 2024**
 
 It might come as a surprise, but even in the mild climate of Scotland, snow manages to endure year-round in certain sheltered mountain locations. In fact, until recently, some highland corries would house perennial snow patches for many decades without seeing them melt. The fine balance between preferential snow deposition in winter and sheltering in summer makes predicting the distribution of these snow patches a rigorous test for the kind of physically based snow models used in climate projection and impacts studies. This is the basis of my PhD research.
 

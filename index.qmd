@@ -73,7 +73,9 @@ Keen on encouraging more interdiciplinary collaborations founding the [Machine L
 - CASE partner: [ENVEO IT GmbH](https://www.enveo.at)
 
 ---
-
+<!-- ::: {.text-center}
+### Flappy Satellite
+::: -->
 
 <div style="text-align: center; margin-top: 20px;">
   <!-- <iframe src="pong_game/index.html" width="820" height="520" style="border:none; overflow:hidden;"></iframe> -->
