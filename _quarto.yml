@@ -19,6 +19,8 @@ website:
       # - href: committee.qmd
       # - href: members.qmd
       # - href: resources.qmd
+      - href: munro_map/munros.qmd
+        text: Munros
 
 format:
   html:

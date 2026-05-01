@@ -28,6 +28,7 @@ resources:
 <div style="text-align: center; margin-bottom: 2rem;">
   <p style="margin: 0;">PhD Student, SENSE CDT<br>School of GeoSciences, University of Edinburgh</p>
   <p><a href="mailto:leam.howe@ed.ac.uk">leam.howe@ed.ac.uk</a></p>
+  <!-- <p><a href="https://www.linkedin.com/in/leamhowe">LinkedIn</a></p> -->
 </div>
 
 :::{.text-center}

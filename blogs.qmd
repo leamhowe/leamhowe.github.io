@@ -37,7 +37,7 @@ The Sphinx has made it to popular news platforms numerous times over the past fe
 Current projections suggest a stark future with [‘little to no snow by the 2080s’](https://www.climatexchange.org.uk/wp-content/uploads/2023/09/cxc-snow-cover-and-climate-change-in-the-cairngorms-national-park_1.pdf) — a disheartening forecast for chionophiles like myself.
 
 ::: {.text-center}
-![**Figure 3.** Me with the famous Sphinx snow patch on 22/09/2024. This corrie is considered the snowiest place in the UK.](images/PXL_20240922_092207014.jpg)
+![**Figure 3.** Me with the famous Sphinx snow patch on 22/09/2024. This corrie is considered the snowiest place in the UK. 📷 Ryan Ing](images/PXL_20240922_092207014.jpg)
 :::
 
 <!-- ![**Figure 4.** A 100 year timeline marking the years where the Sphinx snow patch has melted away. A clear indicator of the changes in climate we are seeing in Scotland](images/sphinx_melt_years.png){.column-page} -->
