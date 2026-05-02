@@ -2,7 +2,7 @@ import pandas as pd
 import leafmap.foliumap as leafmap
 
 # 1. Define your files
-input_csv = 'munros_clean.csv'
+input_csv = 'munros_progress.csv'
 output_html = 'my_munros_map.html'
 
 print("Loading your Munro data...")
