@@ -1,6 +1,6 @@
 ### My Interactive Munro Map
 
-**Current Progress:** I have bagged **{{< var munro_count >}}** out of 282 Munros!
+**Current Progress:** I have visited **{{< var munro_count >}}** out of 282 Munros!
 
 Here is a live look at my progress across the Scottish Highlands:
 
