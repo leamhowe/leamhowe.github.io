@@ -1,21 +1,3 @@
----
-name: Haha Ha
-header:
-  - text: |
-      <span style="font-size: 1.2em; font-weight: bold;">Applying for: Cooking Engineer</span>
-  - text: <span class="iconify" data-icon="tabler:phone"></span> (+1) 123-456-7890
-    newLine: true
-  - text: <span class="iconify" data-icon="tabler:mail"></span> icancook@email.com
-    link: mailto:icancook@email.com
-  - text: <span class="iconify" data-icon="tabler:brand-github"></span> Renovamen
-    link: https://github.com/Renovamen
-  - text: <span class="iconify" data-icon="charm:person"></span> zxh.me
-    link: https://zxh.me
----
-
-<!-- Important: Replace all template content, especially contact details, with your own information. -->
-
-<!-- Important: When updating your email address, remember to change both the "text" (visible text) and the "link" (underlying hyperlink) fields. -->
 
 # Leam Howe
 PhD Researcher, University of Edinburgh, SENSE Earth Observation CDT
