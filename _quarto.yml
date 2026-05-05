@@ -12,7 +12,7 @@ website:
         text: Home
       - href: phd-project.qmd
         text: PhD Project
-      - href: blogs.qmd
+      - href: blog.qmd
         text: Blog
       # - about.qmd
       # - href: events.qmd

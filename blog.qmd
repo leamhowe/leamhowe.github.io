@@ -1,0 +1,24 @@
+---
+title: ""
+listing:
+  contents: blogs
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+page-layout: full
+title-block-banner: "images/an_teallach_dusk.jpg" 
+title-block-banner-color: "white"
+---
+
+::: {.text-center}
+# Blog
+
+This page is a repository for my blog posts.  
+Blogging provides an informal platform through which to share my research.  
+Expect mountains, snow, satellites, and maybe a few personal opinions.  
+**All views are my own.**
+:::
+
+---
