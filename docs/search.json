@@ -18,7 +18,7 @@
     "href": "index.html",
     "title": "Leam Howe",
     "section": "",
-    "text": "Leam Howe\n\n\n\nPhD Student, SENSE CDTSchool of GeoSciences, University of Edinburgh\n\n\nleam.howe@ed.ac.uk\n\n\n\n\n\n\n\n\nAbout\nPartial to mountains, snow, and coffee. 🏔️❄️☕\nPhD researcher in environmental data science, specializing in the remote sensing and modelling of mountain snow. My work spans the full observational scale: from in-situ fieldwork and UAV surveys to aerial and satellite Earth Observation.\nKeen on encouraging more interdiciplinary collaborations founding the Machine Learning for Geoscience and Earth Observation (Ml4GEO) group. I’m also passionate about outreach and effective communication of science, in recent years I’ve spent a lot of time working on and chairing the SatSchool Outreach project.\n\n\n\nResearch Interests\n\nThe Cryosphere\n\nSnow\n\nOrographic Processes\n\nMountain Meteorology\nClimate Change\n\nEarth Observation\n\nRemote Sensing\n\nAI & Machine Learning\n\nModelling\n\n\n\n\nPrevious Studies\n\nMSci (Hons) Physics, University of Nottingham\n\nMRes Climate and Atmospheric Science, University of Leeds\n\n\n\n\nAffiliations\n\nPhD funded through the SENSE Earth Observation CDT\n\nCASE partner: ENVEO IT GmbH"
+    "text": "Leam Howe\n\n\n\nPhD Student, SENSE CDTSchool of GeoSciences, University of Edinburgh\n\n\nleam.howe@ed.ac.uk\n\n\n\n\n\n\n\n\nAbout\n\nHi, I’m Leam! 👋 Currently I am a PhD researcher at the University of Edinburgh, funded through the SENSE Earth Observation CDT. I research mountain snow, with a focus on Scotland as a particularly challenging test bed for remote sensing and modelling of efforts. You can read more about my PhD research here.\n\nMy interest in remote sensing to inform environmental science drove my decision to pursue a PhD with SENSE. My work has spanned the full observational scale – from in-situ fieldwork and UAV surveys to aerial and satellite Earth Observation. I have a particular interest in the application of machine learning to combine and take full advantage of large EO and climate datasets. More broadly, I love building interdisciplinary collaborations, with ML4GEO being a prime example.\nI am also passionate about outreach and accessible science communication. I have spent the last few years working on and chairing the SatSchool Outreach project, and I was grateful to receive the SENSE Outreach Award 2026 in recognition of these efforts.\nOutside of the office, you’ll usually find me in the hills. I’m a qualified Mountain Leader (and working towards my Winter Mountain Leader award), and I love safely sharing my passion for the Scottish mountains with others. If I’m not on a peak, I’m probably relaxing with some good music and a cup of coffee. 🏔️🎶☕\n\n\n\nResearch Interests\n\nThe Cryosphere\n\nSnow\n\nOrographic Processes\n\nMountain Meteorology\nClimate Change\n\nEarth Observation\n\nRemote Sensing\n\nAI & Machine Learning\n\nModelling\n\n\n\n\nPrevious Studies\n\nMSci (Hons) Physics, University of Nottingham\n\nMRes Climate and Atmospheric Science, University of Leeds\n\n\n\n\nAffiliations\n\nPhD funded through the SENSE Earth Observation CDT\n\nCASE partner: ENVEO IT GmbH"
   },
   {
     "objectID": "blogs/death_of_zombies/index.html",
@@ -53,7 +53,7 @@
     "href": "cv/cv.html#research-interests",
     "title": "Leam Howe - Curriculum Vitae",
     "section": "Research Interests",
-    "text": "Research Interests\nPhD researcher in Environmental science with a particular focus on remote sensing and Earth observation from space; keen on utilising machine learning to capitalise on these rapidly expanding datasets. Developing a career in academia whilst maintaining relationships with industry partners and working on outreach projects to improve public communication of climate science. Partial to mountains, snow, and coffee."
+    "text": "Research Interests\nPhD researcher in Environmental science with a particular focus on remote sensing and Earth observation from space; keen on utilising machine learning to capitalise on these rapidly expanding datasets. Developing a career in academia whilst maintaining relationships with industry partners and working on outreach projects to improve public communication of climate science. Partial to mountains, snow, and coffee.\nProgramming & Software: Python, git, shell, ssh, Slurm, Matlab, Fortran, Javascript, html, LaTeX, QGIS, ArcGIS, Google Earth Engine, Planetary Computer, Jupyter Notebooks, Docker, AWS, Google Colab, Hugging Face, PyTorch, Scikit-learn.\nRelevant Technical Expertise: Multispectral Optical Imagery (Landsat, Sentinel-2, Planet) | SAR Imagery (Sentinel-1) | Digital Elevation Models | Meteorological Reanalysis | Snow Modelling | Machine Learning | UAV Remote Sensing | Fieldwork in Mountainous Environments"
   },
   {
     "objectID": "cv/cv.html#education",
@@ -84,13 +84,6 @@
     "text": "Software & Data Products\n\nfieldwork data\nSPUN snow maps\nHighest resolution snow persistence maps of Scotland retrieved from Sentinel-2 with machine learning."
   },
   {
-    "objectID": "cv/cv.html#professional-experience",
-    "href": "cv/cv.html#professional-experience",
-    "title": "Leam Howe - Curriculum Vitae",
-    "section": "Professional Experience",
-    "text": "Professional Experience\n\nCooking Engineer Intern\n\nMicrowavesoft\n\n\n07/2021 - Present\n\n\n\nDeveloped an innovative, versatile cooking methodology applicable across diverse ingredients, incorporating and improving upon recent culinary trends\nCreated a streamlined cream of mushroom soup recipe, achieving results comparable to complex state-of-the-art techniques through a novel mushroom-cutting approach; published in NIPS 2099 (see [~P1])\nDesigned a specialized cooking pan that enhanced research efficiency for team members\n\n\nEngineering Chef Intern\n\nUniversity of California, Berkebake\n\n\n08/2020 - Present\n\n\n\nDeveloped a precise mapo tofu quality assessment technique using thermometer-based measurements\nInvented a rapid stir-frying algorithm for tofu cooking, replacing vague instructions like “add as much as you can” with specific hot sauce measurements; published in CVPR 2077 (see [~P2])\nOutperformed SOTA cooking methods in both efficiency and quality across experiments with popular tofu types\n\n\nStudent Chef\n\nCabbage Melon University\n\n\n03/2020 - 06/2020\n\n\n\nDeveloped an innovative mapo tofu consumption framework utilizing a spoon-chopstick combination\nEngineered a filtering method for tofu dataset creation, inspired by bean grinding techniques\nEstablished two new metrics for evaluating eating plan novelty and diversity\nSignificantly surpassed existing methods and baselines in diversity, novelty, and coherence\n\n\nResearch Chef Intern\n\nSnapchopstick\n\n\n07/2018 - 08/2018\n\n\n\nDesigned two novel sandwiches by repurposing breads and meat from traditional bacon cheeseburgers, maximizing resource efficiency\nLeveraged structure duality to boost cooking speed for two complementary tasks based on shared ingredients\nSurpassed strong baselines on QWE’15 and ASDF’14 dataset"
-  },
-  {
     "objectID": "cv/cv.html#grants",
     "href": "cv/cv.html#grants",
     "title": "Leam Howe - Curriculum Vitae",
@@ -109,7 +102,7 @@
     "href": "cv/cv.html#oral-presentations",
     "title": "Leam Howe - Curriculum Vitae",
     "section": "Oral Presentations",
-    "text": "Oral Presentations\nSAGES AI/ESM Fora Meeting, October 2025 Invited speaker.\nLiving Planet Symposium, Vienna July 2025\nSLF External Seminar, Jan 2025\nInvited speaker\nNational Earth Observation Conference, York Sep 2024\nSAGES Annual Science Meeting, May 2024"
+    "text": "Oral Presentations\nSAGES AI/ESM Fora Meeting, October 2025 Invited speaker.\nLiving Planet Symposium, Vienna July 2025\nSLF External Seminar, September 2024\nInvited speaker\nNational Earth Observation Conference, York Sep 2024\nSAGES Annual Science Meeting, May 2024"
   },
   {
     "objectID": "cv/cv.html#poster-presentations",
@@ -130,28 +123,28 @@
     "href": "cv/cv.html#fieldwork-experience",
     "title": "Leam Howe - Curriculum Vitae",
     "section": "Fieldwork Experience",
-    "text": "Fieldwork Experience"
+    "text": "Fieldwork Experience\nDuring my PhD, I have completed fieldwork in the Cairngorms, Scotland, to collect spectal reflective measurements and perform GNSS mapping of late-lying snow patches. My first field season (2023) we used the handheld ASD Field Spectrometer. The second season I qualified as a dron pilot and used the DJI M350 drone with a MAIA multispectral sensor matched to Sentinel-2."
   },
   {
     "objectID": "cv/cv.html#teaching-experience",
     "href": "cv/cv.html#teaching-experience",
     "title": "Leam Howe - Curriculum Vitae",
     "section": "Teaching Experience",
-    "text": "Teaching Experience"
+    "text": "Teaching Experience\n2025 - 2026 - Undergraduate Course (SCQF Level 8): Environmental Geography (GEGR08013), including fieldwork in the Cairngorms, Scotland.\n2024 - 2025 - Postgraduate Course (SCQF Level 11): Principles and Practice of Remote Sensing (PGGE11233). - Undergraduate Course (SCQF Level 9): Key Methods in Physical Geography (GEGR09018).\n2023 - 2024 - Undergraduate Course (SCQF Level 8): Meteorology: Weather and Climate (METE08002)\n2022 - 2023 - Postgraduate Course (SCQF Level 11): Principles and Practice of Remote Sensing (PGGE11233). - Undergraduate Course (SCQF Level 10): Ice and Climate (GEGR10119) - Supervised a Research Experience Placement student, analysing the consistency of satellite records with snow observations in Scotland."
   },
   {
     "objectID": "cv/cv.html#outreach-volunteering",
     "href": "cv/cv.html#outreach-volunteering",
     "title": "Leam Howe - Curriculum Vitae",
     "section": "Outreach & Volunteering",
-    "text": "Outreach & Volunteering"
+    "text": "Outreach & Volunteering\n\nSatSchool Outreach: SatSchool Committee Member (November 2022 - Present) https://satschool-outreach.github.io/. This is a valuable outreach project developing and delivering learning resources to engage lower secondary school pupils with Earth Observation. I led the project as Chair for 2024-2025, and notably our resources were used for the Committee on Earth Observation Satellites (CEOS) Youth Hub outreach international outreach initiative during this period.\nML4GEO: Key founder and co-organiser of the Machine Learning for Geoscience and Earth Observation (ML4GEO) research group at the University of Edinburgh. This is a new initiative to promote interdisciplinary collaborations between machine learning researchers and geoscientists. We have organised regular meetings, workshops, seminars, and a Geospatial Foundation Model Hackathon to foster this community."
   },
   {
     "objectID": "cv/cv.html#additional-relevant-experience",
     "href": "cv/cv.html#additional-relevant-experience",
     "title": "Leam Howe - Curriculum Vitae",
     "section": "Additional Relevant Experience",
-    "text": "Additional Relevant Experience\nENVEO IT GmbH (October – December 2023) ENVEO is an IT company developing satellite data product of the cryosphere. I completed a 3-month research placement working with their snow products. This gave me valuable experience of coding protocols in industry whilst working with geospatial data and an insight into the business model of an academic spin-off companies Astrium UK (October 2013) EADS aerospace manufacturer (notably developed Cryosat and Sentinel satellites). Shadowed engineers developing satellites and spacecraft."
+    "text": "Additional Relevant Experience\nENVEO IT GmbH (October – December 2023) ENVEO is an IT company developing satellite data product of the cryosphere. I completed a 3-month research placement working with their snow products. This gave me valuable experience of coding protocols in industry whilst working with geospatial data and an insight into the business model of an academic spin-off companies.\nAstrium UK (October 2013): EADS aerospace manufacturer (notably developed Cryosat and Sentinel satellites). Shadowed engineers developing satellites and spacecraft."
   },
   {
     "objectID": "cv/cv.html#qualifications",
