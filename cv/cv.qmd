@@ -45,6 +45,8 @@ PhD Researcher, University of Edinburgh, SENSE Earth Observation CDT
 
 **Relevant Technical Expertise:** Multispectral Optical Imagery (Landsat, Sentinel-2, Planet) | SAR Imagery (Sentinel-1) | Digital Elevation Models | Meteorological Reanalysis | Snow Modelling | Machine Learning | UAV Remote Sensing | Fieldwork in Mountainous Environments
 
+---
+
 ## Education
 
 **2022 - Present: University of Edinburgh, PhD NERC SENSE Earth Observation CDT**
