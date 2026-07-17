@@ -45,13 +45,15 @@ m = leafmap.Map()
 
 # 2. Add your preferred basemap (OpenTopoMap)
 m.add_basemap("OpenTopoMap")
+m.add_basemap("SATELLITE")
 
 # 3. Stream your hosted COG
-cog_url = "https://github.com/leamhowe/leamhowe.github.io/blob/main/data/SP_CNP_AllYears_pooled_2016-2026_COG.tif"
+# cog_url = "https://github.com/leamhowe/leamhowe.github.io/blob/main/data/SP_CNP_AllYears_pooled_2016-2026_COG.tif"
+cog_url = "https://huggingface.co/datasets/leamhowe/cairngorms-S2-snow-persistence/blob/main/SP_CNP_AllYears_pooled_2016-2026_COG.tif"
 m.add_cog_layer(
     url=cog_url, 
     name="Snow Persistence (2016-2025)",
-    colormap_name="viridis" # Optional: apply a colormap if it's single-band data
+    # colormap_name="viridis" # Optional: apply a colormap if it's single-band data
 )
 
 # 4. Render the widget directly into the Quarto HTML output
