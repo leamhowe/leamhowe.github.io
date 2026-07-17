@@ -5,6 +5,11 @@ PhD Researcher, University of Edinburgh, SENSE Earth Observation CDT
 ## Research Interests
 *PhD researcher in Environmental science with a particular focus on remote sensing and Earth observation from space; keen on utilising machine learning to capitalise on these rapidly expanding datasets. Developing a career in academia whilst maintaining relationships with industry partners and working on outreach projects to improve public communication of climate science. Partial to mountains, snow, and coffee.*
 
+**Programming & Software:** Python, git, shell, ssh, Slurm, Matlab, Fortran, Javascript, html, LaTeX, QGIS, ArcGIS, Google Earth Engine, Planetary Computer, Jupyter Notebooks, Docker, AWS, Google Colab, Hugging Face, PyTorch, Scikit-learn.
+
+**Relevant Technical Expertise:** Multispectral Optical Imagery (Landsat, Sentinel-2, Planet) | SAR Imagery (Sentinel-1) | Digital Elevation Models | Meteorological Reanalysis | Snow Modelling | Machine Learning | UAV Remote Sensing | Fieldwork in Mountainous Environments
+
+---
 ## Education
 
 **2022 - Present: University of Edinburgh, PhD NERC SENSE Earth Observation CDT**
@@ -17,59 +22,23 @@ Research project applying machine learning techniques to efficiently identify an
 **2015 – 2019: University of Nottingham, MSci Physics (2:1 Hons)**
 Two first-class research projects and gained valuable coding, statistical analysis, and communication skills.
 
-
+---
 ## Publications in preparation
 
 **Howe, L.**, Essery, R., Crowley E. J., SPUN: Deep learning for continuous snow cover fraction retrieval in marginal environments. *To be submitted to HESS in Spring 2026.*
 
+---
 ## Non Peer-reviewed Publications
 **Howe, L.** (2026) The Death of Scotland’s Zombie Glaciers. *Published in RSGS’s ‘The Geographer’.*
 
+---
 ## Software & Data Products
 
 * fieldwork data 
 * SPUN snow maps
 * Highest resolution snow persistence maps of Scotland retrieved from Sentinel-2 with machine learning.
 
-## Professional Experience
-
-**Cooking Engineer Intern**
-  ~ Microwavesoft
-  ~ 07/2021 - Present
-
-- Developed an innovative, versatile cooking methodology applicable across diverse ingredients, incorporating and improving upon recent culinary trends
-- Created a streamlined cream of mushroom soup recipe, achieving results comparable to complex state-of-the-art techniques through a novel mushroom-cutting approach; published in NIPS 2099 (see [~P1])
-- Designed a specialized cooking pan that enhanced research efficiency for team members
-
-
-**Engineering Chef Intern**
-  ~ University of California, Berkebake
-  ~ 08/2020 - Present
-
-- Developed a precise mapo tofu quality assessment technique using thermometer-based measurements
-- Invented a rapid stir-frying algorithm for tofu cooking, replacing vague instructions like "add as much as you can" with specific hot sauce measurements; published in CVPR 2077 (see [~P2])
-- Outperformed SOTA cooking methods in both efficiency and quality across experiments with popular tofu types
-
-
-**Student Chef**
-  ~ Cabbage Melon University
-  ~ 03/2020 - 06/2020
-
-- Developed an innovative mapo tofu consumption framework utilizing a spoon-chopstick combination
-- Engineered a filtering method for tofu dataset creation, inspired by bean grinding techniques
-- Established two new metrics for evaluating eating plan novelty and diversity
-- Significantly surpassed existing methods and baselines in diversity, novelty, and coherence
-
-
-**Research Chef Intern**
-  ~ Snapchopstick
-  ~ 07/2018 - 08/2018
-
-- Designed two novel sandwiches by repurposing breads and meat from traditional bacon cheeseburgers, maximizing resource efficiency
-- Leveraged structure duality to boost cooking speed for two complementary tasks based on shared ingredients
-- Surpassed strong baselines on QWE'15 and ASDF'14 dataset
-
-
+---
 ## Grants
 
 **Global Change Institute small grants - £850**
@@ -97,7 +66,7 @@ Grant awarded to SatSchool Outreach projec to align outreach resources with the 
 
 PhD fully funded by the UKRI Natural Environment Research Council.
 
-
+---
 ## Awards & Prizes
 
 **SENSE Student Award for Outreach**, 
@@ -106,6 +75,7 @@ PhD fully funded by the UKRI Natural Environment Research Council.
 **SENSE Industry Symposium prize for soical**, awarded for efforts to develop and promote a collaborative and social community within the SENSE CDT.
   ~ 2023
 
+---
 ## Oral Presentations
 
 **SAGES AI/ESM Fora Meeting, October 2025**
@@ -113,7 +83,7 @@ Invited speaker.
 
 **Living Planet Symposium, Vienna July 2025**
 
-**SLF External Seminar, Jan 2025**
+**SLF External Seminar, September 2024**
 
 Invited speaker
 
@@ -121,7 +91,7 @@ Invited speaker
 
 **SAGES Annual Science Meeting, May 2024**
 
-
+---
 ## Poster Presentations
 
 **University of Cambridge ICCS NERC workshop on Bayesian Machine Learning as a tool for Climate Scientists, April 2024**
@@ -130,42 +100,57 @@ Invited speaker
 
 **Scottish Alliance for Geoscience & Society (SAGES) ASM 2023.**
 
+---
 ## Presentation Contributions
 
 Essery, R., Nemec, J., **Howe, L.**, Schwaizer, G., and Nagler, T.: Gap filling satellite snow cover for mountain catchments, EGU General Assembly 2025, Vienna, Austria, 27 Apr–2 May 2025, EGU25-6832, https://doi.org/10.5194/egusphere-egu25-6832, 2025.
 
 
+---
 ## Fieldwork Experience
 
+During my PhD, I have completed fieldwork in the Cairngorms, Scotland, to collect spectal reflective measurements and perform GNSS mapping of late-lying snow patches. My first field season (2023) we used the handheld ASD Field Spectrometer. The second season I qualified as a dron pilot and used the DJI M350 drone with a MAIA multispectral sensor matched to Sentinel-2. 
 
-
+---
 ## Teaching Experience
 
+**2025 - 2026**
+- Undergraduate Course (SCQF Level 8): Environmental Geography (GEGR08013), including fieldwork in the Cairngorms, Scotland.
 
+**2024 - 2025**
+- Postgraduate Course (SCQF Level 11): Principles and Practice of Remote Sensing (PGGE11233).
+- Undergraduate Course (SCQF Level 9): Key Methods in Physical Geography (GEGR09018).
+
+**2023 - 2024** 
+- Undergraduate Course (SCQF Level 8): Meteorology: Weather and Climate (METE08002)
+
+**2022 - 2023**
+- Postgraduate Course (SCQF Level 11): Principles and Practice of Remote Sensing (PGGE11233).
+- Undergraduate Course (SCQF Level 10): Ice and Climate (GEGR10119)
+- Supervised a Research Experience Placement student, analysing the consistency of satellite records with snow observations in Scotland.
+
+---
 ## Outreach & Volunteering 
 
-* 
+* **SatSchool Outreach:** SatSchool Committee Member (November 2022 - Present) https://satschool-outreach.github.io/.  This is a valuable outreach project developing and delivering learning resources to engage lower secondary school pupils with Earth Observation. I led the project as Chair for 2024-2025, and notably our resources were used for the [Committee on Earth Observation Satellites (CEOS) Youth Hub](https://ceos.org/youth/) outreach international outreach initiative during this period.
 
+* **[ML4GEO](https://ml4geo.github.io/):** Key founder and co-organiser of the Machine Learning for Geoscience and Earth Observation (ML4GEO) research group at the University of Edinburgh. This is a new initiative to promote interdisciplinary collaborations between machine learning researchers and geoscientists. We have organised regular meetings, workshops, seminars, and a Geospatial Foundation Model Hackathon to foster this community.
+
+---
 ## Additional Relevant Experience
 
-ENVEO IT GmbH (October – December 2023)
-ENVEO is an IT company developing satellite data product of the cryosphere. I completed a 3-month research placement working with their snow products. This gave me valuable experience of coding protocols in industry whilst working with geospatial data and an insight into the business model of an academic spin-off companies
-Astrium UK (October 2013)
-EADS aerospace manufacturer (notably developed Cryosat and Sentinel satellites). Shadowed engineers developing satellites and spacecraft.
+**ENVEO IT GmbH (October – December 2023)** ENVEO is an IT company developing satellite data product of the cryosphere. I completed a 3-month research placement working with their snow products. This gave me valuable experience of coding protocols in industry whilst working with geospatial data and an insight into the business model of an academic spin-off companies.
 
+**Astrium UK (October 2013)**: EADS aerospace manufacturer (notably developed Cryosat and Sentinel satellites). Shadowed engineers developing satellites and spacecraft.
+
+---
 ## Qualifications
 
 * Qualified drone pilot, A2 CofC
 
-## Skills
-
-**Programming Languages:** <span class="iconify" data-icon="vscode-icons:file-type-python"></span> Frython, <span class="iconify" data-icon="vscode-icons:file-type-js-official"></span> JavaSauce / <span class="iconify" data-icon="vscode-icons:file-type-typescript-official"></span> TypeSauce, <span class="iconify" data-icon="vscode-icons:file-type-cpp2"></span> Cheese++, <span class="iconify" data-icon="logos:java" data-inline="false"></span> Java Bean
-
-**Tools and Frameworks:** GrillHub, PanFlow, TensorFork, SpiceNet, $\LaTeX$
-
-**Languages:** Chinese (native), English (proficient)
 
 
+---
 ## Professional Societies
 
 Scottish Alliance for Geoscience & Society (SAGES)
@@ -174,6 +159,7 @@ Royal Geographical Society (RGS)
 
 Institute of Physics (IOP)
 
+---
 ## Hobbies & Interests
 
 **Outdoors/Sports:** Lover of the outdoors. Often in the mountains hiking, climbing, running, or cycling. Working towards my Mountain Leader qualifications. I have achieved my Advanced Open Water Diver and Underwater Digital Photographer PADI qualifications.
@@ -182,6 +168,7 @@ Institute of Physics (IOP)
 
 **Music:** I have achieved grade 7 piano and grade 6 guitar.
 
+---
 ## References 
 
 **Prof Cathryn Birch**, Professor, School of Earth and Environment, University of Leeds,

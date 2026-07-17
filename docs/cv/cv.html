@@ -128,9 +128,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#research-interests" id="toc-research-interests" class="nav-link active" data-scroll-target="#research-interests">Research Interests</a></li>
   <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
-  <li><a href="#publications-in-preparation" id="toc-publications-in-preparation" class="nav-link" data-scroll-target="#publications-in-preparation">Publications in preparation</a></li>
+  <li><a href="#publications-in-review" id="toc-publications-in-review" class="nav-link" data-scroll-target="#publications-in-review">Publications in review</a></li>
   <li><a href="#non-peer-reviewed-publications" id="toc-non-peer-reviewed-publications" class="nav-link" data-scroll-target="#non-peer-reviewed-publications">Non Peer-reviewed Publications</a></li>
-  <li><a href="#software-data-products" id="toc-software-data-products" class="nav-link" data-scroll-target="#software-data-products">Software &amp; Data Products</a></li>
   <li><a href="#grants" id="toc-grants" class="nav-link" data-scroll-target="#grants">Grants</a></li>
   <li><a href="#awards-prizes" id="toc-awards-prizes" class="nav-link" data-scroll-target="#awards-prizes">Awards &amp; Prizes</a></li>
   <li><a href="#oral-presentations" id="toc-oral-presentations" class="nav-link" data-scroll-target="#oral-presentations">Oral Presentations</a></li>
@@ -140,8 +139,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#teaching-experience" id="toc-teaching-experience" class="nav-link" data-scroll-target="#teaching-experience">Teaching Experience</a></li>
   <li><a href="#outreach-volunteering" id="toc-outreach-volunteering" class="nav-link" data-scroll-target="#outreach-volunteering">Outreach &amp; Volunteering</a></li>
   <li><a href="#additional-relevant-experience" id="toc-additional-relevant-experience" class="nav-link" data-scroll-target="#additional-relevant-experience">Additional Relevant Experience</a></li>
-  <li><a href="#qualifications" id="toc-qualifications" class="nav-link" data-scroll-target="#qualifications">Qualifications</a></li>
-  <li><a href="#professional-societies" id="toc-professional-societies" class="nav-link" data-scroll-target="#professional-societies">Professional Societies</a></li>
+  <li><a href="#other-relevant-qualifications" id="toc-other-relevant-qualifications" class="nav-link" data-scroll-target="#other-relevant-qualifications">Other Relevant Qualifications</a></li>
   <li><a href="#hobbies-interests" id="toc-hobbies-interests" class="nav-link" data-scroll-target="#hobbies-interests">Hobbies &amp; Interests</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
@@ -184,12 +182,14 @@ format:
 <!-- Important: Replace all template content, especially contact details, with your own information. -->
 <!-- Important: When updating your email address, remember to change both the "text" (visible text) and the "link" (underlying hyperlink) fields. -->
 <!-- # Leam Howe -->
-<p>PhD Researcher, University of Edinburgh, SENSE Earth Observation CDT</p>
+<!-- ::: {.center} -->
+<p>PhD Researcher, University of Edinburgh, SENSE Earth Observation CDT <!-- ::: --></p>
 <section id="research-interests" class="level2">
 <h2 class="anchored" data-anchor-id="research-interests">Research Interests</h2>
 <p><em>PhD researcher in Environmental science with a particular focus on remote sensing and Earth observation from space; keen on utilising machine learning to capitalise on these rapidly expanding datasets. Developing a career in academia whilst maintaining relationships with industry partners and working on outreach projects to improve public communication of climate science. Partial to mountains, snow, and coffee.</em></p>
 <p><strong>Programming &amp; Software:</strong> Python, git, shell, ssh, Slurm, Matlab, Fortran, Javascript, html, LaTeX, QGIS, ArcGIS, Google Earth Engine, Planetary Computer, Jupyter Notebooks, Docker, AWS, Google Colab, Hugging Face, PyTorch, Scikit-learn.</p>
 <p><strong>Relevant Technical Expertise:</strong> Multispectral Optical Imagery (Landsat, Sentinel-2, Planet) | SAR Imagery (Sentinel-1) | Digital Elevation Models | Meteorological Reanalysis | Snow Modelling | Machine Learning | UAV Remote Sensing | Fieldwork in Mountainous Environments</p>
+<hr>
 </section>
 <section id="education" class="level2">
 <h2 class="anchored" data-anchor-id="education">Education</h2>
@@ -197,73 +197,97 @@ format:
 <p>Remote sensing and modelling of mountain snow patches. Using novel high-resolution remote sensing and meteorological modelling to improve our understanding of the climate sensitivity of mountain snow.</p>
 <p><strong>2021 – 2022: University of Leeds, MRes Climate and Atmospheric Science (Distinction)</strong> Research project applying machine learning techniques to efficiently identify anomalous behaviour in SAR ice velocity data.</p>
 <p><strong>2015 – 2019: University of Nottingham, MSci Physics (2:1 Hons)</strong> Two first-class research projects and gained valuable coding, statistical analysis, and communication skills.</p>
+<hr>
 </section>
-<section id="publications-in-preparation" class="level2">
-<h2 class="anchored" data-anchor-id="publications-in-preparation">Publications in preparation</h2>
-<p><strong>Howe, L.</strong>, Essery, R., Crowley E. J., SPUN: Deep learning for continuous snow cover fraction retrieval in marginal environments. <em>To be submitted to HESS in Spring 2026.</em></p>
+<section id="publications-in-review" class="level2">
+<h2 class="anchored" data-anchor-id="publications-in-review">Publications in review</h2>
+<p><strong>Howe, L.</strong>, Essery, R., Crowley E. J., SPUN: Deep learning for continuous snow cover fraction retrieval in marginal environments. <em>in review with Hydrology and Earth System Sciences (HESS)</em></p>
 </section>
 <section id="non-peer-reviewed-publications" class="level2">
 <h2 class="anchored" data-anchor-id="non-peer-reviewed-publications">Non Peer-reviewed Publications</h2>
 <p><strong>Howe, L.</strong> (2026) The Death of Scotland’s Zombie Glaciers. <em>Published in RSGS’s ‘The Geographer’.</em></p>
-</section>
-<section id="software-data-products" class="level2">
-<h2 class="anchored" data-anchor-id="software-data-products">Software &amp; Data Products</h2>
-<ul>
-<li>fieldwork data</li>
-<li>SPUN snow maps</li>
-<li>Highest resolution snow persistence maps of Scotland retrieved from Sentinel-2 with machine learning.</li>
-</ul>
+<!-- ---
+
+## Software & Data Products
+
+* fieldwork data - Spectral reflectance measurements of snow patches in the Cairngorms, Scotland, collected using a handheld ASD Field Spectrometer and a DJI M350 drone with a MAIA multispectral sensor matched to Sentinel-2.
+
+* A snow cover fraction dataset for patchy late-lying snow across Scotland, derived from Sentinel-2 imagery.
+
+* Highest resolution snow persistence maps of Scotland retrieved from Sentinel-2 with machine learning. -->
+<hr>
 </section>
 <section id="grants" class="level2">
 <h2 class="anchored" data-anchor-id="grants">Grants</h2>
-<p><strong>Global Change Institute small grants - £850</strong> Funded to set up a new ‘Machine Learning for Geoscience and Earth Observation (ML4GEO)’ research group</p>
-<p><strong>NERC Diversifying the Pipline</strong> (2024)</p>
-<p><strong>SENSE outreach funding - £10,000</strong></p>
+<ul>
+<li><strong>Global Change Institute small grants - £850</strong> (2025)</li>
+</ul>
+<p>Funded to set up a new ‘Machine Learning for Geoscience and Earth Observation (ML4GEO)’ research group</p>
+<ul>
+<li><strong>NERC Diversifying the Pipline</strong> (2024)</li>
+</ul>
+<p>Jointly awarded to the SatSchool outreach project and the SENSE CDT and E4 DTP to support the development of outreach materials to engage underrepresented groups in STEM.</p>
+<ul>
+<li><strong>SENSE outreach funding - £10,000</strong></li>
+</ul>
 <p>Awarded to the SatSchool outreach project from the SENSE CDT to contribute to continued development, refinement, and delivery of outreach materials.</p>
-<p><strong>SAGES Small Grant Scheme for Scottish fieldwork - £500</strong> (2024)</p>
+<ul>
+<li><strong>SAGES Small Grant Scheme for Scottish fieldwork - £500</strong> (2024)</li>
+</ul>
 <p>Fieldwork in the Cairngorms, Scotland, contributing to my PhD project investingating the reflective properties of Scottish snow using a sensor matched to Sentinel-2 and mounted on the DJI M350 drone.</p>
-<p><strong>SAGES Small Grant Scheme - £850</strong></p>
+<ul>
+<li><strong>SAGES Small Grant Scheme - £850</strong></li>
+</ul>
 <p>Awarded to run a workshop to promote engagement with the SatSchool outreach project and developed new ideas for outreach materials.</p>
-<p><strong>Ogden Trust Physics Education Grant - £5,000</strong> (2022)</p>
+<ul>
+<li><strong>Ogden Trust Physics Education Grant - £5,000</strong> (2022)</li>
+</ul>
 <p>Grant awarded to SatSchool Outreach projec to align outreach resources with the KS3 Physics curriculum.</p>
-<p><strong>SENSE Earth Observation CDT Studentship - £66,000</strong> (2022 - Present)</p>
+<ul>
+<li><strong>SENSE Earth Observation CDT Studentship - £66,000</strong> (2022 - Present)</li>
+</ul>
 <p>PhD fully funded by the UKRI Natural Environment Research Council.</p>
+<hr>
 </section>
 <section id="awards-prizes" class="level2">
 <h2 class="anchored" data-anchor-id="awards-prizes">Awards &amp; Prizes</h2>
-<dl>
-<dt><strong>SENSE Student Award for Outreach</strong>,</dt>
-<dd>
-2026
-</dd>
-<dt><strong>SENSE Industry Symposium prize for soical</strong>, awarded for efforts to develop and promote a collaborative and social community within the SENSE CDT.</dt>
-<dd>
-2023
-</dd>
-</dl>
+<ul>
+<li><p><strong>SAGES ASM 2026 Best talk prize</strong>, awarded for an oral presentation on my PhD research. ~ May 2026</p></li>
+<li><p><strong>SENSE Student Award for Outreach</strong> ~ April 2026</p></li>
+<li><p><strong>SENSE Industry Symposium prize for soical contribution</strong>, awarded for efforts to develop and promote a collaborative and social community within the SENSE CDT. ~ November 2023</p></li>
+</ul>
+<hr>
 </section>
 <section id="oral-presentations" class="level2">
 <h2 class="anchored" data-anchor-id="oral-presentations">Oral Presentations</h2>
-<p><strong>SAGES AI/ESM Fora Meeting, October 2025</strong> Invited speaker.</p>
-<p><strong>Living Planet Symposium, Vienna July 2025</strong></p>
-<p><strong>SLF External Seminar, September 2024</strong></p>
-<p>Invited speaker</p>
-<p><strong>National Earth Observation Conference, York Sep 2024</strong></p>
-<p><strong>SAGES Annual Science Meeting, May 2024</strong></p>
+<ul>
+<li><p><strong>SAGES ASM 2026, May 2026</strong> From Scottish Snow Patches to Global Snow Cover: Deep Learning for Snow Cover Fraction Retrieval</p></li>
+<li><p><strong>SAGES AI/ESM Fora Meeting, October 2025</strong> Invited speaker.</p></li>
+<li><p><strong>Living Planet Symposium, Vienna July 2025</strong></p></li>
+<li><p><strong>SLF External Seminar, September 2024</strong> Invited speaker</p></li>
+<li><p><strong>National Earth Observation Conference, York Sep 2024</strong></p></li>
+<li><p><strong>SAGES Annual Science Meeting, May 2024</strong></p></li>
+</ul>
+<hr>
 </section>
 <section id="poster-presentations" class="level2">
 <h2 class="anchored" data-anchor-id="poster-presentations">Poster Presentations</h2>
-<p><strong>University of Cambridge ICCS NERC workshop on Bayesian Machine Learning as a tool for Climate Scientists, April 2024</strong></p>
-<p><strong>8th General Assembly of the International Union of Geodesy and Geophysics (IUGG), July 11-20, 2023 in Berlin, Germany.</strong></p>
-<p><strong>Scottish Alliance for Geoscience &amp; Society (SAGES) ASM 2023.</strong></p>
+<ul>
+<li><p><strong>University of Cambridge ICCS NERC workshop on Bayesian Machine Learning as a tool for Climate Scientists, April 2024</strong></p></li>
+<li><p><strong>8th General Assembly of the International Union of Geodesy and Geophysics (IUGG), July 11-20, 2023 in Berlin, Germany.</strong></p></li>
+<li><p><strong>Scottish Alliance for Geoscience &amp; Society (SAGES) ASM 2023.</strong></p></li>
+</ul>
 </section>
 <section id="presentation-contributions" class="level2">
 <h2 class="anchored" data-anchor-id="presentation-contributions">Presentation Contributions</h2>
 <p>Essery, R., Nemec, J., <strong>Howe, L.</strong>, Schwaizer, G., and Nagler, T.: Gap filling satellite snow cover for mountain catchments, EGU General Assembly 2025, Vienna, Austria, 27 Apr–2 May 2025, EGU25-6832, https://doi.org/10.5194/egusphere-egu25-6832, 2025.</p>
+<hr>
 </section>
 <section id="fieldwork-experience" class="level2">
 <h2 class="anchored" data-anchor-id="fieldwork-experience">Fieldwork Experience</h2>
-<p>During my PhD, I have completed fieldwork in the Cairngorms, Scotland, to collect spectal reflective measurements and perform GNSS mapping of late-lying snow patches. My first field season (2023) we used the handheld ASD Field Spectrometer. The second season I qualified as a dron pilot and used the DJI M350 drone with a MAIA multispectral sensor matched to Sentinel-2.</p>
+<p>During my PhD, I have completed fieldwork in the Cairngorms, Scotland, to collect spectal reflective measurements and perform GNSS mapping of late-lying snow patches. My first field season (2023) we used the handheld ASD Field Spectrometer. The second season I qualified as a drone pilot and used the DJI M350 drone with a MAIA multispectral sensor matched to Sentinel-2.</p>
+<p>I have also assisted the Airborne Research and Innovation (ARI) team at the University of Edinburgh with fieldwork as part of the <a href="https://sustainability.ed.ac.uk/operations/forest-peatland">Forest and Peatlands project</a> aimed to restore peatlands and expand forests in Scotland.</p>
+<hr>
 </section>
 <section id="teaching-experience" class="level2">
 <h2 class="anchored" data-anchor-id="teaching-experience">Teaching Experience</h2>
@@ -271,6 +295,7 @@ format:
 <p><strong>2024 - 2025</strong> - Postgraduate Course (SCQF Level 11): Principles and Practice of Remote Sensing (PGGE11233). - Undergraduate Course (SCQF Level 9): Key Methods in Physical Geography (GEGR09018).</p>
 <p><strong>2023 - 2024</strong> - Undergraduate Course (SCQF Level 8): Meteorology: Weather and Climate (METE08002)</p>
 <p><strong>2022 - 2023</strong> - Postgraduate Course (SCQF Level 11): Principles and Practice of Remote Sensing (PGGE11233). - Undergraduate Course (SCQF Level 10): Ice and Climate (GEGR10119) - Supervised a Research Experience Placement student, analysing the consistency of satellite records with snow observations in Scotland.</p>
+<hr>
 </section>
 <section id="outreach-volunteering" class="level2">
 <h2 class="anchored" data-anchor-id="outreach-volunteering">Outreach &amp; Volunteering</h2>
@@ -278,29 +303,37 @@ format:
 <li><p><strong>SatSchool Outreach:</strong> SatSchool Committee Member (November 2022 - Present) https://satschool-outreach.github.io/. This is a valuable outreach project developing and delivering learning resources to engage lower secondary school pupils with Earth Observation. I led the project as Chair for 2024-2025, and notably our resources were used for the <a href="https://ceos.org/youth/">Committee&nbsp;on Earth Observation Satellites (CEOS)&nbsp;Youth Hub</a> outreach international outreach initiative during this period.</p></li>
 <li><p><strong><a href="https://ml4geo.github.io/">ML4GEO</a>:</strong> Key founder and co-organiser of the Machine Learning for Geoscience and Earth Observation (ML4GEO) research group at the University of Edinburgh. This is a new initiative to promote interdisciplinary collaborations between machine learning researchers and geoscientists. We have organised regular meetings, workshops, seminars, and a Geospatial Foundation Model Hackathon to foster this community.</p></li>
 </ul>
+<hr>
 </section>
 <section id="additional-relevant-experience" class="level2">
 <h2 class="anchored" data-anchor-id="additional-relevant-experience">Additional Relevant Experience</h2>
 <p><strong>ENVEO IT GmbH (October – December 2023)</strong> ENVEO is an IT company developing satellite data product of the cryosphere. I completed a 3-month research placement working with their snow products. This gave me valuable experience of coding protocols in industry whilst working with geospatial data and an insight into the business model of an academic spin-off companies.</p>
 <p><strong>Astrium UK (October 2013)</strong>: EADS aerospace manufacturer (notably developed Cryosat and Sentinel satellites). Shadowed engineers developing satellites and spacecraft.</p>
+<hr>
 </section>
-<section id="qualifications" class="level2">
-<h2 class="anchored" data-anchor-id="qualifications">Qualifications</h2>
+<section id="other-relevant-qualifications" class="level2">
+<h2 class="anchored" data-anchor-id="other-relevant-qualifications">Other Relevant Qualifications</h2>
 <ul>
 <li>Qualified drone pilot, A2 CofC</li>
+<li>Mountain Leader (ML) qualified, working towards Winter ML (completed training, assessment next season).</li>
 </ul>
-</section>
-<section id="professional-societies" class="level2">
-<h2 class="anchored" data-anchor-id="professional-societies">Professional Societies</h2>
-<p>Scottish Alliance for Geoscience &amp; Society (SAGES)</p>
-<p>Royal Geographical Society (RGS)</p>
-<p>Institute of Physics (IOP)</p>
+<!-- ---
+
+## Professional Societies
+
+Scottish Alliance for Geoscience & Society (SAGES)
+
+Royal Geographical Society (RGS)
+
+Institute of Physics (IOP) -->
+<hr>
 </section>
 <section id="hobbies-interests" class="level2">
 <h2 class="anchored" data-anchor-id="hobbies-interests">Hobbies &amp; Interests</h2>
-<p><strong>Outdoors/Sports:</strong> Lover of the outdoors. Often in the mountains hiking, climbing, running, or cycling. Working towards my Mountain Leader qualifications. I have achieved my Advanced Open Water Diver and Underwater Digital Photographer PADI qualifications.</p>
+<p><strong>Outdoors/Sports:</strong> Lover of the outdoors. Often in the mountains hiking, climbing, running, or cycling. I have achieved my Advanced Open Water Diver and Underwater Digital Photographer PADI qualifications.</p>
 <p><strong>Art (photography, sketching, painting):</strong> I have a passion for photography and rarely travel anywhere without my camera. I enjoy sketching and watercolour, often in inspiring places.</p>
 <p><strong>Music:</strong> I have achieved grade 7 piano and grade 6 guitar.</p>
+<hr>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>

@@ -5,7 +5,7 @@ format:
     toc: true
     css: cv.css
   pdf:
-    author: Leam Howe
+    # author: Leam Howe
     # pdf-engine: weasyprint
     pdf-engine: pdflatex
     css: cv.css
@@ -36,7 +36,11 @@ format:
 <!-- Important: When updating your email address, remember to change both the "text" (visible text) and the "link" (underlying hyperlink) fields. -->
 
 <!-- # Leam Howe -->
+
+<!-- ::: {.center} -->
 PhD Researcher, University of Edinburgh, SENSE Earth Observation CDT
+<!-- ::: -->
+
 
 ## Research Interests
 *PhD researcher in Environmental science with a particular focus on remote sensing and Earth observation from space; keen on utilising machine learning to capitalise on these rapidly expanding datasets. Developing a career in academia whilst maintaining relationships with industry partners and working on outreach projects to improve public communication of climate science. Partial to mountains, snow, and coffee.*
@@ -60,88 +64,113 @@ Research project applying machine learning techniques to efficiently identify an
 Two first-class research projects and gained valuable coding, statistical analysis, and communication skills.
 
 
-## Publications in preparation
+---
 
-**Howe, L.**, Essery, R., Crowley E. J., SPUN: Deep learning for continuous snow cover fraction retrieval in marginal environments. *To be submitted to HESS in Spring 2026.*
+## Publications in review
+
+**Howe, L.**, Essery, R., Crowley E. J., SPUN: Deep learning for continuous snow cover fraction retrieval in marginal environments. *in review with Hydrology and Earth System Sciences (HESS)*
 
 ## Non Peer-reviewed Publications
+
 **Howe, L.** (2026) The Death of Scotland’s Zombie Glaciers. *Published in RSGS’s ‘The Geographer’.*
+
+<!-- ---
 
 ## Software & Data Products
 
-* fieldwork data 
-* SPUN snow maps
-* Highest resolution snow persistence maps of Scotland retrieved from Sentinel-2 with machine learning.
+* fieldwork data - Spectral reflectance measurements of snow patches in the Cairngorms, Scotland, collected using a handheld ASD Field Spectrometer and a DJI M350 drone with a MAIA multispectral sensor matched to Sentinel-2.
 
+* A snow cover fraction dataset for patchy late-lying snow across Scotland, derived from Sentinel-2 imagery.
+
+* Highest resolution snow persistence maps of Scotland retrieved from Sentinel-2 with machine learning. -->
+
+
+---
 
 ## Grants
 
-**Global Change Institute small grants - £850**
+- **Global Change Institute small grants - £850** (2025)
+
 Funded to set up a new 'Machine Learning for Geoscience and Earth Observation (ML4GEO)' research group 
 
-**NERC Diversifying the Pipline** (2024)
+- **NERC Diversifying the Pipline** (2024)
 
-**SENSE outreach funding - £10,000**
+Jointly awarded to the SatSchool outreach project and the SENSE CDT and E4 DTP to support the development of outreach materials to engage underrepresented groups in STEM.
+
+- **SENSE outreach funding - £10,000**
 
 Awarded to the SatSchool outreach project from the SENSE CDT to contribute to continued development, refinement, and delivery of outreach materials.
 
-**SAGES Small Grant Scheme for Scottish fieldwork - £500** (2024)
+- **SAGES Small Grant Scheme for Scottish fieldwork - £500** (2024)
 
 Fieldwork in the Cairngorms, Scotland, contributing to my PhD project investingating the reflective properties of Scottish snow using a sensor matched to Sentinel-2 and mounted on the DJI M350 drone. 
 
-**SAGES Small Grant Scheme - £850**
+- **SAGES Small Grant Scheme - £850**
 
 Awarded to run a workshop to promote engagement with the SatSchool outreach project and developed new ideas for outreach materials.
 
-**Ogden Trust Physics Education Grant - £5,000** (2022)
+- **Ogden Trust Physics Education Grant - £5,000** (2022)
 
 Grant awarded to SatSchool Outreach projec to align outreach resources with the KS3 Physics curriculum.
 
-**SENSE Earth Observation CDT Studentship - £66,000** (2022 - Present)
+- **SENSE Earth Observation CDT Studentship - £66,000** (2022 - Present)
 
 PhD fully funded by the UKRI Natural Environment Research Council.
 
 
+---
+
 ## Awards & Prizes
 
-**SENSE Student Award for Outreach**, 
-  ~ 2026
+- **SAGES ASM 2026 Best talk prize**, awarded for an oral presentation on my PhD research. ~ May 2026
 
-**SENSE Industry Symposium prize for soical**, awarded for efforts to develop and promote a collaborative and social community within the SENSE CDT.
-  ~ 2023
+- **SENSE Student Award for Outreach** ~ April 2026
+
+- **SENSE Industry Symposium prize for soical contribution**, awarded for efforts to develop and promote a collaborative and social community within the SENSE CDT. ~ November 2023
+
+---
 
 ## Oral Presentations
 
-**SAGES AI/ESM Fora Meeting, October 2025**
+- **SAGES ASM 2026, May 2026**
+From Scottish Snow Patches to Global Snow Cover: Deep Learning for Snow Cover Fraction Retrieval
+
+- **SAGES AI/ESM Fora Meeting, October 2025**
 Invited speaker. 
 
-**Living Planet Symposium, Vienna July 2025**
+- **Living Planet Symposium, Vienna July 2025**
 
-**SLF External Seminar, September 2024**
+- **SLF External Seminar, September 2024** Invited speaker
 
-Invited speaker
+- **National Earth Observation Conference, York Sep 2024**
 
-**National Earth Observation Conference, York Sep 2024**
+- **SAGES Annual Science Meeting, May 2024**
 
-**SAGES Annual Science Meeting, May 2024**
 
+---
 
 ## Poster Presentations
 
-**University of Cambridge ICCS NERC workshop on Bayesian Machine Learning as a tool for Climate Scientists, April 2024**
+- **University of Cambridge ICCS NERC workshop on Bayesian Machine Learning as a tool for Climate Scientists, April 2024**
 
-**8th General Assembly of the International Union of Geodesy and Geophysics (IUGG), July 11-20, 2023 in Berlin, Germany.**
+- **8th General Assembly of the International Union of Geodesy and Geophysics (IUGG), July 11-20, 2023 in Berlin, Germany.**
 
-**Scottish Alliance for Geoscience & Society (SAGES) ASM 2023.**
+- **Scottish Alliance for Geoscience & Society (SAGES) ASM 2023.**
 
 ## Presentation Contributions
 
 Essery, R., Nemec, J., **Howe, L.**, Schwaizer, G., and Nagler, T.: Gap filling satellite snow cover for mountain catchments, EGU General Assembly 2025, Vienna, Austria, 27 Apr–2 May 2025, EGU25-6832, https://doi.org/10.5194/egusphere-egu25-6832, 2025.
 
 
+---
+
 ## Fieldwork Experience
 
-During my PhD, I have completed fieldwork in the Cairngorms, Scotland, to collect spectal reflective measurements and perform GNSS mapping of late-lying snow patches. My first field season (2023) we used the handheld ASD Field Spectrometer. The second season I qualified as a dron pilot and used the DJI M350 drone with a MAIA multispectral sensor matched to Sentinel-2. 
+During my PhD, I have completed fieldwork in the Cairngorms, Scotland, to collect spectal reflective measurements and perform GNSS mapping of late-lying snow patches. My first field season (2023) we used the handheld ASD Field Spectrometer. The second season I qualified as a drone pilot and used the DJI M350 drone with a MAIA multispectral sensor matched to Sentinel-2. 
+
+I have also assisted the Airborne Research and Innovation (ARI) team at the University of Edinburgh with fieldwork as part of the [Forest and Peatlands project](https://sustainability.ed.ac.uk/operations/forest-peatland) aimed to restore peatlands and expand forests in Scotland. 
+
+---
 
 ## Teaching Experience
 
@@ -160,11 +189,15 @@ During my PhD, I have completed fieldwork in the Cairngorms, Scotland, to collec
 - Undergraduate Course (SCQF Level 10): Ice and Climate (GEGR10119)
 - Supervised a Research Experience Placement student, analysing the consistency of satellite records with snow observations in Scotland.
 
+---
+
 ## Outreach & Volunteering 
 
 * **SatSchool Outreach:** SatSchool Committee Member (November 2022 - Present) https://satschool-outreach.github.io/.  This is a valuable outreach project developing and delivering learning resources to engage lower secondary school pupils with Earth Observation. I led the project as Chair for 2024-2025, and notably our resources were used for the [Committee on Earth Observation Satellites (CEOS) Youth Hub](https://ceos.org/youth/) outreach international outreach initiative during this period.
 
 * **[ML4GEO](https://ml4geo.github.io/):** Key founder and co-organiser of the Machine Learning for Geoscience and Earth Observation (ML4GEO) research group at the University of Edinburgh. This is a new initiative to promote interdisciplinary collaborations between machine learning researchers and geoscientists. We have organised regular meetings, workshops, seminars, and a Geospatial Foundation Model Hackathon to foster this community.
+
+---
 
 ## Additional Relevant Experience
 
@@ -172,11 +205,15 @@ During my PhD, I have completed fieldwork in the Cairngorms, Scotland, to collec
 
 **Astrium UK (October 2013)**: EADS aerospace manufacturer (notably developed Cryosat and Sentinel satellites). Shadowed engineers developing satellites and spacecraft.
 
-## Qualifications
+---
+
+## Other Relevant Qualifications
 
 * Qualified drone pilot, A2 CofC
+* Mountain Leader (ML) qualified, working towards Winter ML (completed training, assessment next season).
 
 
+<!-- ---
 
 ## Professional Societies
 
@@ -184,15 +221,19 @@ Scottish Alliance for Geoscience & Society (SAGES)
 
 Royal Geographical Society (RGS)
 
-Institute of Physics (IOP)
+Institute of Physics (IOP) -->
+
+---
 
 ## Hobbies & Interests
 
-**Outdoors/Sports:** Lover of the outdoors. Often in the mountains hiking, climbing, running, or cycling. Working towards my Mountain Leader qualifications. I have achieved my Advanced Open Water Diver and Underwater Digital Photographer PADI qualifications.
+**Outdoors/Sports:** Lover of the outdoors. Often in the mountains hiking, climbing, running, or cycling. I have achieved my Advanced Open Water Diver and Underwater Digital Photographer PADI qualifications.
 
 **Art (photography, sketching, painting):** I have a passion for photography and rarely travel anywhere without my camera. I enjoy sketching and watercolour, often in inspiring places.
 
 **Music:** I have achieved grade 7 piano and grade 6 guitar.
+
+---
 
 ## References 
 
