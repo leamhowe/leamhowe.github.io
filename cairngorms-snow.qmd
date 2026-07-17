@@ -50,8 +50,8 @@ m.add_basemap("OpenTopoMap")
 cog_url = "https://github.com/leamhowe/leamhowe.github.io/blob/main/data/SP_CNP_AllYears_pooled_2016-2026_COG.tif"
 m.add_cog_layer(
     url=cog_url, 
-    name="Pooled Data (2016-2026)",
-    colormap_name="mako" # Optional: apply a colormap if it's single-band data
+    name="Snow Persistence (2016-2025)",
+    colormap_name="viridis" # Optional: apply a colormap if it's single-band data
 )
 
 # 4. Render the widget directly into the Quarto HTML output
