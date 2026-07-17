@@ -23,11 +23,10 @@ You can access the raw hosted files here:
 
 ```html
 <!-- Uncomment and update the URL once your JSON is hosted -->
-<!-- 
+
 <iframe 
-  src="[https://developmentseed.org/stac-map/?url=https://yourusername.github.io/yourrepo/data/stac_item.json](https://developmentseed.org/stac-map/?url=https://yourusername.github.io/yourrepo/data/stac_item.json)" 
+  src="https://developmentseed.org/stac-map/?url=https://leamhowe.github.io/data/stac_item.json" 
   width="100%" 
   height="600px" 
   style="border: none; border-radius: 8px;">
-</iframe> 
--->
+</iframe>
