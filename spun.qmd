@@ -1,0 +1,35 @@
+---
+title: ""
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: false
+    page-layout: full
+    title-block: false
+    title-block-banner: false
+---
+
+<!-- <div class="banner-image">
+  <img src="images/braeriach.jpeg" alt="Banner Image">
+</div> -->
+
+![](https://raw.githubusercontent.com/leamhowe/spun/refs/heads/main/assets/spun_logo.png){fig-align="center" width="80%"}
+
+<!-- <div style="text-align: center;">
+  <strong>"MACHINE LEARNING FOR REMOTE SENSING AND MODELLING OF MOUNTAIN SNOW PATCHES"</strong>
+</div> -->
+
+# SPUN (a Snow Patch U-Net)
+
+This pages is a home for visualisations and dashboards generated using the [SPUN (Snow Patch U-Net)](https://github.com/leamhowe/spun) deep learning model for mapping snow cover from Sentinel-2 imagery. SPUN was designed for mapping snowpatches in the Scottish Highlands (as part of my PhD research studying these small decametre-scale features) but shows promise for wider applications in snow mapping and monitoring. 
+
+**You can read more details about the SPUN model in our preprint:** [https://egusphere.copernicus.org/preprints/2026/egusphere-2026-3163/](https://egusphere.copernicus.org/preprints/2026/egusphere-2026-3163/) 
+
+
+## Cairngorms snow cover
+
+The [Cairngorms National Park](https://www.visitcairngorms.com/cairngorms-national-park-map/) is the snowiest region in the UK — a unique subarctic-alpine landscape characterised by its high plateaus, rugged terrain and diverse ecosystems, making it an ideal location for studying snow dynamics in a mountainous environment. Here we present a dashboard of SPUN snow maps for the whole national park spanning 2016-2026:
+
+- [Dashboard of SPUN snow cover maps for the Cairngorms, 2016-2026](assets/dashboards/CNP_snow_dashboard_QCflags_shadow65_UpdatedSuspects_sunangle22_cloud80.html)
+<!-- - [2017–18](dashboards/CNP_snow_dashboard_2018.html) -->

@@ -10,8 +10,16 @@ website:
       - href: index.qmd
         # html: "<img src='images/ML4GEO_logo.png' alt='ML4GEO Logo' style='height: 40px;'>"
         text: Home
-      - href: phd-project.qmd
-        text: PhD Project
+      # - href: phd-project.qmd
+      #   text: PhD Project
+      # --- UPDATED: PhD Project Dropdown ---
+      - text: PhD Project
+        menu:
+          - href: phd-project.qmd
+            text: Project Overview  # You can rename this label
+          - href: spun.qmd
+            text: SPUN             # You can rename this label
+      # -------------------------------------
       - href: blog.qmd
         text: Blog
       # - about.qmd
@@ -39,6 +47,7 @@ format:
 #   - _site/styles.css
 resources:
   - /styles.css
+  - "/assets/dashboards/*.html"
 
 # format:
 #   html:
