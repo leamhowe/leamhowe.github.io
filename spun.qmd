@@ -31,5 +31,5 @@ This pages is a home for visualisations and dashboards generated using the [SPUN
 
 The [Cairngorms National Park](https://www.visitcairngorms.com/cairngorms-national-park-map/) is the snowiest region in the UK — a unique subarctic-alpine landscape characterised by its high plateaus, rugged terrain and diverse ecosystems, making it an ideal location for studying snow dynamics in a mountainous environment. Here we present a dashboard of SPUN snow maps for the whole national park spanning 2016-2026:
 
-- [Dashboard of SPUN snow cover maps for the Cairngorms, 2016-2026](assets/dashboards/CNP_snow_dashboard_QCflags_shadow65_UpdatedSuspects_sunangle22_cloud80.html)
+- [Dashboard of SPUN snow cover maps for the Cairngorms, 2016-2026](assets/dashboards/CNP_snow_dashboard_QCflags_sunangle22_cloud80.html)
 <!-- - [2017–18](dashboards/CNP_snow_dashboard_2018.html) -->
