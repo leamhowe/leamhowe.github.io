@@ -27,9 +27,22 @@ This pages is a home for visualisations and dashboards generated using the [SPUN
 **You can read more details about the SPUN model in our preprint:** [https://egusphere.copernicus.org/preprints/2026/egusphere-2026-3163/](https://egusphere.copernicus.org/preprints/2026/egusphere-2026-3163/) 
 
 
+## Tracking snowpatches in the Scottish Highlands
+
+SPUN was primarily intended as a tool for tracking late-lying snowpatches in the Scottish Highlands as part of my PhD research. Here we present the melt-season snowmaps derived using SPUN and zoomed in on iconic snowpatch locations:
+
+- [The Sphinx snowpatch, 2016-2026](assets/dashboards/Braeriach_late_snow_dashboard_occluded55_suspect30.html)
+
+
+
 ## Cairngorms snow cover
 
 The [Cairngorms National Park](https://www.visitcairngorms.com/cairngorms-national-park-map/) is the snowiest region in the UK — a unique subarctic-alpine landscape characterised by its high plateaus, rugged terrain and diverse ecosystems, making it an ideal location for studying snow dynamics in a mountainous environment. Here we present a dashboard of SPUN snow maps for the whole national park spanning 2016-2026:
 
 - [Dashboard of SPUN snow cover maps for the Cairngorms, 2016-2026](assets/dashboards/CNP_snow_dashboard_QCflags_sunangle22_cloud80.html)
 <!-- - [2017–18](dashboards/CNP_snow_dashboard_2018.html) -->
+
+
+We have used these snowmaps to derive annual and Sentinel-2 wide snow persistence maps for the Cairngorms at 10 m resolution (higher than ever before):
+
+![](/images/CNP_SP_2023_Insets.png){fig-align="center" width="80%"}
