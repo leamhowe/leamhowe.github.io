@@ -46,3 +46,6 @@ The [Cairngorms National Park](https://www.visitcairngorms.com/cairngorms-nation
 We have used these snowmaps to derive annual and Sentinel-2 wide snow persistence maps for the Cairngorms at 10 m resolution (higher than ever before):
 
 ![](/images/CNP_SP_2023_Insets.png){fig-align="center" width="80%"}
+
+
+Please get in touch if you have any questions or feedback: [leamhowe1@gmail.com](mailto:leamhowe1@gmail.com)
