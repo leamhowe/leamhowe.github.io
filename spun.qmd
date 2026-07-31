@@ -14,7 +14,7 @@ format:
   <img src="images/braeriach.jpeg" alt="Banner Image">
 </div> -->
 
-![](https://raw.githubusercontent.com/leamhowe/spun/refs/heads/main/assets/spun_logo.png){fig-align="center" width="80%"}
+[![](https://raw.githubusercontent.com/leamhowe/spun/refs/heads/main/assets/spun_logo.png){fig-align="center" width="80%"}](https://github.com/leamhowe/spun)
 
 <!-- <div style="text-align: center;">
   <strong>"MACHINE LEARNING FOR REMOTE SENSING AND MODELLING OF MOUNTAIN SNOW PATCHES"</strong>
