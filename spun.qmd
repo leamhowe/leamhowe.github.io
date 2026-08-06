@@ -31,7 +31,8 @@ This pages is a home for visualisations and dashboards generated using the [SPUN
 
 SPUN was primarily intended as a tool for tracking late-lying snowpatches in the Scottish Highlands as part of my PhD research. Here we present the melt-season snowmaps derived using SPUN and zoomed in on iconic snowpatch locations:
 
-- [The Sphinx snowpatch, 2016-2026](assets/dashboards/Braeriach_late_snow_dashboard_occluded55_suspect30.html)
+- [The Sphinx snowpatch, Braeriach](assets/dashboards/Braeriach_late_snow_dashboard_occluded55_suspect30.html)
+- [Ciste Mhearad (Margaret's Coffin) snowpatch, Cairn Gorm Mountain](assets/dashboards/Cairn_Gorm_late_snow_dashboard_occluded55_suspect30.html)
 
 
 
