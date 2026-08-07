@@ -1,3 +1,10 @@
 /.quarto/
 
 **/*.quarto_ipynb
+_cairngorms-snow.ipynb
+_cairngorms-snow.qmd
+CNP_snow.qmd
+photography.qmd
+photos.qmd
+/cv/
+images/mountain_sketch_icon.png

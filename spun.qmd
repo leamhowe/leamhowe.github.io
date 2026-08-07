@@ -33,6 +33,8 @@ SPUN was primarily intended as a tool for tracking late-lying snowpatches in the
 
 - [The Sphinx snowpatch, Braeriach](assets/dashboards/Braeriach_late_snow_dashboard_occluded55_suspect30.html)
 - [Ciste Mhearad (Margaret's Coffin) snowpatch, Cairn Gorm Mountain](assets/dashboards/Cairn_Gorm_late_snow_dashboard_occluded55_suspect30.html)
+- Aonach Beag snowpatch, coming soon...
+- Ben Nevis, coming soon...
 
 
 
