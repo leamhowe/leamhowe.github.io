@@ -30,8 +30,9 @@ m = leafmap.Map(center=[56.8, -4.2], zoom=7)
 
 
 m.add_basemap("OpenTopoMap", name="OpenTopoMap")
-m.add_basemap("Esri.WorldTopoMap", name="Esri Topo", show=False)
-m.add_basemap("Esri.WorldImagery", name="Satellite", show=False)
+# m.add_basemap("Esri.WorldTopoMap", name="Esri Topo", show=False)
+# m.add_basemap("Esri.WorldImagery", name="Satellite", show=False)
+m.add_basemap("SATELLITE", name="Satellite", show=False)
 m.add_basemap("Stadia.StamenWatercolor", name="Watercolor", show=False)
 m.add_basemap("Strava.All", name="Strava", show=False)
 
