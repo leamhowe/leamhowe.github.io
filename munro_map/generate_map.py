@@ -32,6 +32,10 @@ m = leafmap.Map(center=[56.8, -4.2], zoom=7)
 m.add_basemap("OpenTopoMap", name="OpenTopoMap")
 # m.add_basemap("Esri.WorldTopoMap", name="Esri Topo", show=False)
 m.add_basemap("Esri.WorldImagery", name="Satellite", show=False)
+# Custom satellite (using the trick from before)
+esri_url = "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+m.add_tile_layer(url=esri_url, name="Esri Satellite", attribution="Esri", shown=False)
+
 # m.add_basemap("SATELLITE", name="Satellite", show=False)
 # m.add_basemap("Stadia.StamenWatercolor", name="Watercolor", show=False)
 m.add_basemap("Esri.NatGeoWorldMap", name="National Geographic", show=False)
