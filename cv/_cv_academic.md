@@ -28,7 +28,7 @@ Two first-class research projects and gained valuable coding, statistical analys
 
 ## Publications in review
 
-**Howe, L.**, Essery, R., Crowley E. J., SPUN: Deep learning for continuous snow cover fraction retrieval in marginal environments. *To be submitted to HESS in Spring 2026.*
+**Howe, L.**, Essery, R., Crowley E. J., SPUN: Deep learning for continuous snow cover fraction retrieval in marginal environments. *Submitted to HESS in Spring 2026.* In preprint: https://doi.org/10.5194/egusphere-2026-3163 
 
 ## Non Peer-reviewed Publications
 

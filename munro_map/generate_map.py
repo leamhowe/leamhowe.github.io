@@ -32,6 +32,8 @@ m = leafmap.Map(center=[56.8, -4.2], zoom=7)
 m.add_basemap("OpenTopoMap", name="OpenTopoMap")
 m.add_basemap("Esri.WorldTopoMap", name="Esri Topo", show=False)
 m.add_basemap("Esri.WorldImagery", name="Satellite", show=False)
+m.add_basemap("Stadia.StamenWatercolor", name="Watercolor", show=False)
+m.add_basemap("Strava.All", name="Strava", show=False)
 
 # 4. Add the Munros to the map
 # We loop through the data to add them so we can apply the custom colors perfectly
